@@ -5,5 +5,5 @@
 STUDENT PLANNER!!
 Estimated time of finish @May 24 2021(?)
 
-Assigned Parts: (add your own name, followed by what you want to do)
+Assigned Parts: (add your own name, followed by what you want to do)  
 JL - GUI
