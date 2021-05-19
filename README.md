@@ -15,7 +15,7 @@ Development (GUI / Function):
       - Main Calendar
       - Add to Calendar
       - Delete from Calendar
- - Grade Page **(GUI: 100%; Function: 90%| Kyle)**
+ - Grade Page **(GUI: 90%; Function: 90%| Kyle)**
  - Flashcards Page
       - Main Flashcard Page
       - Create/Edit Flashcards
