@@ -8,7 +8,7 @@ Estimated time of finish @May 24 2021(?)
 Development (GUI / Function):
  - Welcome Page
  - Name Prompt
- - Main Menu
+ - Main Menu **(GUI: 80%; Function: 15%| Kyle)**
  - Enlist Page
  - Schedule Page
  - Calendar Page

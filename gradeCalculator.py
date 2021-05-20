@@ -2,9 +2,10 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
 
-class gradeCalculator:
+class gradeCalculator():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
+        self.root = root
 
         self.instructionText = "Input your scores with \'/\' and with each being seperated by a space. Input your percentages as decimals (ex. 0.25). Ensure same amount of elements for both."
 
@@ -25,7 +26,7 @@ class gradeCalculator:
         ttk.Label(mainframe, textvariable = self.gradeOutput, font = Font(size = 10)).grid(column = 2, row = 5, sticky = (W), pady = 10, padx = 4)
         ttk.Button(mainframe, text = "Calculate", command = self.getGrade).grid(column = 3, row = 6, sticky = E)
 
-        ttk.Button(mainframe, text = "Back").grid(column = 1, row = 6, sticky = W, padx = 8)
+        ttk.Button(mainframe, text = "Back", command = self.back).grid(column = 1, row = 6, sticky = W, padx = 8)
 
         ttk.Label(mainframe, text = "Grade Calculator", font = Font(family = 'Helvetica', size = 12, weight = "bold")).grid(column = 2, row = 1, sticky = (E), pady = 8)
         ttk.Label(mainframe, text = self.instructionText, font = Font(size = 8, slant = "italic"), wraplength = 300, justify = "center").grid(pady = 8 ,columnspan = 4, column = 0, row = 2, sticky = (E, W))
@@ -61,5 +62,5 @@ class gradeCalculator:
             self.gradeOutput.set("Wrong Format!")
 
     def back(self, *args):
-        #Return to main menu
+        self.root.destroy()
         pass

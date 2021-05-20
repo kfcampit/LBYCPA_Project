@@ -1,11 +1,10 @@
 from tkinter import *
 from tkinter import ttk
 from gradeCalculator import *
-
-def main():
-    root = Tk()
-    gradeCalculator(root)
-    root.mainloop()
+from mainMenu import *
 
 if __name__ == "__main__":
-    main()
+    while True:
+        root = Tk()
+        mainMenu(root)
+        root.mainloop()
