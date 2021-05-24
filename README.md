@@ -27,4 +27,4 @@ Development (GUI / Function):
       - Delete Notes
 
 Assigned Parts: (add your own name, followed by what you want to do)  
-JL - GUI
+JL - GUI PALITAN KO NGA HEHE
