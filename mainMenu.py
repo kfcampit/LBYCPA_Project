@@ -48,7 +48,6 @@ class mainMenu:
         self.new_window = Tk()
         flashcard(self.new_window)
         pass
-        pass
 
     def notesPage(self, *args):
         pass
