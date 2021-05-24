@@ -5,12 +5,17 @@ from tkinter.font import Font
 class gradeCalculator():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
+        root.protocol("WM_DELETE_WINDOW", lambda : exit())
+
+        root.update_idletasks()
         self.root = root
+
+        root.geometry("320x300+64+64")
 
         self.instructionText = "Input your scores with \'/\' and with each being seperated by a space. Input your percentages as decimals (ex. 0.25). Ensure same amount of elements for both."
 
         mainframe = ttk.Frame(master = root, padding="4 8 12 12", width = 400, height = 400)
-        mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
+        mainframe.grid(column=0, row=0)
         root.columnconfigure(0, weight=1)
         root.rowconfigure(0, weight=1)
 

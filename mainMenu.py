@@ -7,7 +7,7 @@ class mainMenu:
     def __init__(self, root):
         self.root = root
         root.title("LBYCPA1 Project")
-        root.geometry("400x400")
+        root.geometry("400x400+64+64")
         mainframe = Frame(root)
 
         ttk.Label(mainframe, text = "Main Menu", font = Font(family = 'Helvetica', size = 16, weight = "bold"))
@@ -24,6 +24,7 @@ class mainMenu:
             child.pack(fill = "x", pady = 8)
 
         mainframe.pack(expand = 1)
+
 
     def enlistPage(self, *args):
         
