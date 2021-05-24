@@ -17,9 +17,9 @@ Development (GUI / Function):
       - Delete from Calendar
  - Grade Page **(GUI: 90%; Function: 90%| Kyle)**
  - Flashcards Page
-      - Main Flashcard Page
-      - Create/Edit Flashcards
-      - Study with Flashcards
+      - Main Flashcard Page **(GUI: 100%; Function: 80%| JL)**
+      - Create/Edit Flashcards **(GUI: 100%; Function: 100%| JL)**
+      - Study with Flashcards 
  - Notes Page
       - Main Notes Page
       - View Notes
