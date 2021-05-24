@@ -1,4 +1,5 @@
 from gradeCalculator import gradeCalculator
+from flashcards import *
 from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
@@ -43,6 +44,10 @@ class mainMenu:
         pass
 
     def flashcardsPage(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        flashcard(self.new_window)
+        pass
         pass
 
     def notesPage(self, *args):
