@@ -30,7 +30,7 @@ class flashcard():
         editbtn = ttk.Button(root, text ="EDIT", command = self.edit, style = 'Comic.TButton')
         editbtn.grid(row = 1, column = 1, padx = 50, pady = 50)
       
-        studybtn = ttk.Button(root, text ="STUDY", command = self.create, style = 'Comic.TButton')
+        studybtn = ttk.Button(root, text ="STUDY", command = self.study, style = 'Comic.TButton')
         studybtn.grid(row = 1, column = 2, padx = 50)
 
     #Program Functions
@@ -50,6 +50,18 @@ class flashcard():
             self.root.destroy()
             self.new_window = Tk()
             edit(self.new_window)
+        pass
+
+    def study(self, *args):
+        try:
+            with open("Flashcards.txt", mode="r") as r:
+                lines = r.readlines()
+        except:
+            messagebox.showerror("Flashcards.txt not detected", "Make sure to CREATE first before editing")
+        else:
+            self.root.destroy()
+            self.new_window = Tk()
+            study(self.new_window)
         pass
 
 
@@ -180,3 +192,82 @@ class edit():
         self.new_window = Tk()
         flashcard(self.new_window)
         pass
+
+class study():
+    def __init__(self, root):
+        root.title("LBYCPA1 Project")
+        root.protocol("WM_DELETE_WINDOW", lambda : exit())
+        self.root = root
+        ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 3, padx = 30,sticky = E)
+
+        style = ttk.Style()
+        style.configure('Comic.TLabel', font=("Comic Sans MS", 14, "bold"))
+
+        myLabel = ttk.Label(root, text= "STUDY", style = "Comic.TLabel")
+        myLabel.grid(row = 0, column = 0,columnspan = 3, padx = 50, pady = 20)
+
+        with open("Flashcards.txt",mode = 'r') as r:
+            lines = r.readlines()
+        
+        global counter
+        counter = 0
+
+        global Questions
+        global Answers
+
+        Questions =[lines[i] for i in range(0,len(lines),2)]
+        Answers = [lines[i+1] for i in range(0,len(lines),2)]
+        
+        self.QuestionLabel = ttk.Label(root, text= Questions[0])
+        self.QuestionLabel.grid(row = 1, column = 0,columnspan = 3, padx = 50, pady = 20)
+
+        self.AnswerLabel = ttk.Label(self.root, text = "")
+        self.AnswerLabel.grid(row = 2, column = 0,columnspan = 3, padx = 50, pady = 20)
+
+        ttk.Button(root, text = "Show", command = self.show).grid(row = 3, column = 0, columnspan = 3, padx = 30)
+
+    def back(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        flashcard(self.new_window)
+        pass
+
+    def show(self, *args):
+        global counter
+        try:
+            Answers[counter]
+        except:
+            messagebox.showinfo("Flashcards done!", "Goodjob! you completed your flashcard!")
+        else:
+            ttk.Button(self.root, text = "Next", command = self.nextq).grid(row = 3, column = 0, columnspan = 3, padx = 30)
+            self.AnswerLabel.destroy()
+            self.AnswerLabel = ttk.Label(self.root, text = Answers[counter])
+            self.AnswerLabel.grid(row = 2, column = 0,columnspan = 3, padx = 50, pady = 20)
+        pass
+
+    def nextq(self, *args):
+        global counter
+        counter = counter + 1
+        self.AnswerLabel.destroy()
+        self.AnswerLabel = ttk.Label(self.root, text = "")
+        self.AnswerLabel.grid(row = 2, column = 0,columnspan = 3, padx = 50, pady = 20)
+        try:
+            Questions[counter]
+        except:
+            messagebox.showinfo("Flashcards done!", "Goodjob! you completed your flashcard!")
+            counter = 0
+            ttk.Button(self.root, text = "Show", command = self.show).grid(row = 3, column = 0, columnspan = 3, padx = 30)
+            self.QuestionLabel.destroy()
+            self.QuestionLabel = ttk.Label(self.root, text= Questions[counter])
+            self.QuestionLabel.grid(row = 1, column = 0,columnspan = 3, padx = 50, pady = 20)
+            self.AnswerLabel.destroy()
+            self.AnswerLabel = ttk.Label(self.root, text = "")
+            self.AnswerLabel.grid(row = 2, column = 0,columnspan = 3, padx = 50, pady = 20)
+        else:
+            ttk.Button(self.root, text = "Show", command = self.show).grid(row = 3, column = 0, columnspan = 3, padx = 30)
+            self.QuestionLabel.destroy()
+            self.QuestionLabel = ttk.Label(self.root, text= Questions[counter])
+            self.QuestionLabel.grid(row = 1, column = 0,columnspan = 3, padx = 50, pady = 20)
+        pass
+
+    
