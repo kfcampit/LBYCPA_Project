@@ -9,7 +9,7 @@ Development (GUI / Function):
  - Welcome Page
  - Name Prompt
  - Main Menu **(GUI: 80%; Function: 15%| Kyle)**
- - Enlist Page
+ - Enlist Page **(GUI: 0%; Function: 30%| Kyle)**
  - Schedule Page
  - Calendar Page
       - Main Calendar
@@ -21,9 +21,9 @@ Development (GUI / Function):
       - Create/Edit Flashcards **(GUI: 100%; Function: 100%| JL)**
       - Study with Flashcards 
  - Notes Page
-      - Main Notes Page
+      - Main Notes Page **(GUI: 100%; Function: 100%| Kyle)**
       - View Notes
-      - Create Notes
+      - Create Notes **(GUI: 90%; Function: 75%| Kyle)**
       - Delete Notes
 
 Assigned Parts: (add your own name, followed by what you want to do)  
