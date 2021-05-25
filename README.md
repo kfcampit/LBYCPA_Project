@@ -22,9 +22,9 @@ Development (GUI / Function):
       - Study with Flashcards 
  - Notes Page
       - Main Notes Page **(GUI: 100%; Function: 100%| Kyle)**
-      - View Notes
-      - Create Notes **(GUI: 90%; Function: 75%| Kyle)**
-      - Delete Notes
+      - View Notes **(GUI: 100%; Function: 100%| Kyle)**
+      - Create Notes **(GUI: 100%; Function: 100%| Kyle)**
+      - Delete Notes **(GUI: 100%; Function: 100%| Kyle)**
 
 Assigned Parts: (add your own name, followed by what you want to do)  
 JL - GUI PALITAN KO NGA HEHE
