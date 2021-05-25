@@ -1,3 +1,4 @@
+from notebook import notebookMain
 from gradeCalculator import gradeCalculator
 from flashcards import *
 from tkinter import *
@@ -50,6 +51,9 @@ class mainMenu:
         pass
 
     def notesPage(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        notebookMain(self.new_window)
         pass
 
     def exitProgram(self, *args):
