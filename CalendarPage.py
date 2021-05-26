@@ -126,8 +126,7 @@ class CreateCalendar():
         try:
             os.mkdir("data\\tasks//"+date)
         except:
-            #if it doesnt work, do nothing lmao
-            x = 1+1
+            pass
 
         #Try to open the 'date' file in tasks folder then write the txt
         try:
@@ -148,26 +147,66 @@ class EditCalendar():
         root.title("LBYCPA1 Project")
         root.protocol("WM_DELETE_WINDOW", lambda : exit())
         self.root = root
-
+        optionList = self.loadList()
         #Configuring styles
         style = ttk.Style()
         style.configure('Helvetica.TButton', font=("Helvetica", 14))
 
-        style = ttk.Style()
-        style.configure('Helvetica.TLabel', font=("Helvetica", 44, "bold"))
 
-        myLabel = ttk.Label(root, text="Edit", style = "Helvetica.TLabel")
+        style = ttk.Style()
+        style.configure('HelveticaT.TLabel', font=("Helvetica", 24, "bold"))
+        style = ttk.Style()
+        style.configure('Helvetica.TLabel', font=("Helvetica", 14))
+
+        myLabel = ttk.Label(root, text="Edit", style = "HelveticaT.TLabel")
         myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
 
         ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
 
-        #A dropdown to pick a Subject on said date
-        #A load button that loads the tasks of the chosen subject on said date
+        ttk.Label(root, text = "Choose: ", style = "Helvetica.TLabel").grid(row =1, column = 0, sticky = W)
+        self.titleText = StringVar(root)
+        self.titleText.set("Select a Date - Subject")
+        OptionMenu(root, self.titleText, *optionList).grid(column = 1, row = 1, sticky = (W,N), ipadx = 120, pady = 50, padx = 32)
+       
+        ttk.Button(root, text = "Load", width = 16, command = self.loadContent).grid(column = 2, row = 2, padx = 4, sticky = E, pady = 8)
+        
+        ttk.Label(root, text = "Tasks:", style = 'Helvetica.TLabel').grid(row = 3, column = 0, sticky = W)
+        
+        self.taskText = Text(root, width = 87, height = 3)
+        self.taskText.grid(columnspan = 2, column = 0, row = 4, padx = 4)
+
+        #A dropdown to pick a Subject on said date DONE!
+        #A load button that loads the tasks of the chosen subject on said date IN PROGRESS
         #A delete button that removes the task
         #A Mark as done button that moves the task to accomplished
         #A save button that saves the edits
 
+    def loadContent(self, *args):
+        try:
+            for line in self.listText:
+                if (self.titleText.get().replace(" - ",";") + ".txt") == line:
+                    chosen = line.split(";")
+                    Idate = chosen[0]
+                    Isubj = chosen[1]
+            with open("data\\tasks\\" + Idate + "\\" + Isubj, mode = "r", encoding = "utf8") as text:
+                textread = text.readlines()
+            print(textread)
+            # content = "".join(text.readlines())
+            # self.contentText.delete(1.0, "end")
+            # self.contentText.insert(1.0, content)
+        except:
+            pass
 
+
+    def loadList(self, *args):
+        loadedList = []
+        with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as text:
+            self.listText = text.readlines()
+        self.listText = [i.strip("\n") for i in self.listText] 
+        for line in self.listText:
+            if line != '':
+                loadedList.append(line.replace(";"," - ").replace(".txt",""))
+        return loadedList
 
 
 
@@ -209,7 +248,7 @@ class ViewCalendar():
 
 
         
-
+    
 
     def back(self, *args):
         self.root.destroy()
