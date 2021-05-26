@@ -4,6 +4,7 @@ from tkinter.font import Font
 from tkinter import Text, Tk
 from tkinter import messagebox
 from tkcalendar import Calendar, DateEntry
+import os
 
 
 
@@ -74,8 +75,11 @@ class CreateCalendar():
 
 
         global cal
-        cal = DateEntry(root, width=12, background='darkblue', foreground='white', borderwidth=2)
-        cal.grid(row = 1, column = 1, padx=4, pady=10, sticky = W)
+        # cal = DateEntry(root, width=12, background='darkblue', foreground='white', borderwidth=2)
+        # cal.grid(row = 1, column = 1, padx=4, pady=10, sticky = W)
+        
+        cal = Calendar(root, selectmode = "day", expand = "True")
+        cal.grid(row = 1, column = 1, padx = 4, pady=10)
 
 
         ttk.Label(root, text = "Subject:", style = 'Helvetica.TLabel').grid(row = 2, column = 0, sticky = W)
@@ -83,7 +87,7 @@ class CreateCalendar():
         self.subjectText = StringVar()
         ttk.Entry(root, textvariable = self.subjectText, width = 100).grid(row = 2, column = 1, padx = 4, sticky = W)
 
-        ttk.Label(root, text = "Task:", style = 'Helvetica.TLabel').grid(row = 3, column = 0, sticky = W)
+        ttk.Label(root, text = "Tasks:", style = 'Helvetica.TLabel').grid(row = 3, column = 0, sticky = W)
         
         self.taskText = Text(root, width = 87, height = 3)
         self.taskText.grid(columnspan = 2, column = 0, row = 4, padx = 4)
@@ -93,8 +97,8 @@ class CreateCalendar():
         self.textError = ttk.Label(root, textvariable = self.errorString)
         self.textError.grid(columnspan = 2, column = 0, sticky = (E, W))
 
-        ttk.Button(root, text = "Save", width = 16, command = self.save).grid(column = 2, row = 5, padx = 4, sticky = E, pady = 8)
-        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
+        ttk.Button(root, text = "Save", width = 16, command = self.save).grid(column = 2, row = 6, padx = 4, sticky = E, pady = 8)
+        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 6, padx = 4, sticky = W, pady = 8)
 
 
     def back(self, *args):
@@ -107,8 +111,36 @@ class CreateCalendar():
     #should save the inputs
     def save(self, *args):
         global cal
-        date = str(cal.get_date())
-        print(cal.get_date())
+        date = str(cal.get_date()).replace("/","-")
+        subject = self.subjectText.get()
+        task = self.taskText.get("1.0",'end-1c')
+
+        fileName = subject + ".txt"
+        # debug
+        # print(date)
+        # print(subject)
+        # print(task)
+
+        #Create the folder first for the date
+        try:
+            os.mkdir("data\\tasks"+date)
+        except:
+            #if it doesnt work, do nothing lmao
+            x = 1+1
+
+        #Try to open the 'date' file in tasks folder then write the txt
+        try:
+            with open("data\\tasks" + date + "\\" + fileName, mode = "x", encoding = "utf8") as text:
+                text.writelines("Date: " + date + "\n" + "Subject: " + subject + "\n" + task)
+            with open("data\\tasks\\_master.txt", mode = "a", encoding = "utf8") as master:
+                master.write("\n" + fileName + ";" + subject)
+       
+
+        except FileExistsError:
+            self.errorString.set("Subject already has task in date!! Go to edit to add/mark as done/delete tasks")
+        
+
+
 
 
 #Should show a dropdown menu of previous inputs
