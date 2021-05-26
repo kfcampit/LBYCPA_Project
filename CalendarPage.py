@@ -27,9 +27,9 @@ class CalendarPage():
 
         ttk.Button(root, text = "Create", command = self.create, style = 'Helvetica.TButton').grid(column = 0, row = 2, padx = 8, pady = 10)
 
-        ttk.Button(root, text = "Edit", command = self.back, style = 'Helvetica.TButton').grid(column = 1, row = 2, padx = 8, pady = 10)
+        ttk.Button(root, text = "Edit", command = self.edit, style = 'Helvetica.TButton').grid(column = 1, row = 2, padx = 8, pady = 10)
 
-        ttk.Button(root, text = "View", command = self.back, style = 'Helvetica.TButton').grid(column = 2, row = 2, padx = 8, pady = 10)
+        ttk.Button(root, text = "View", command = self.view, style = 'Helvetica.TButton').grid(column = 2, row = 2, padx = 8, pady = 10)
 
     #Program Functions
     def create(self, *args):
@@ -38,6 +38,17 @@ class CalendarPage():
         CreateCalendar(self.new_window)
         pass
 
+    def view(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        ViewCalendar(self.new_window)
+        pass
+
+    def edit(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        EditCalendar(self.new_window)
+        pass
 
 
 
@@ -92,9 +103,70 @@ class CreateCalendar():
         CalendarPage(self.new_window)
         pass
 
+
+    #should save the inputs
     def save(self, *args):
         global cal
-        print("AYAW GUMANAA")
         date = str(cal.get_date())
         print(cal.get_date())
 
+
+#Should show a dropdown menu of previous inputs
+#Load
+#Mark as Accomplished (Delete, but save on accomplish txt)
+#Delete
+class EditCalendar():
+    def __init__(self, root):
+        root.title("LBYCPA1 Project")
+        root.protocol("WM_DELETE_WINDOW", lambda : exit())
+        self.root = root
+
+        #Configuring styles
+        style = ttk.Style()
+        style.configure('Helvetica.TButton', font=("Helvetica", 14))
+
+        style = ttk.Style()
+        style.configure('Helvetica.TLabel', font=("Helvetica", 44, "bold"))
+
+        myLabel = ttk.Label(root, text="Edit", style = "Helvetica.TLabel")
+        myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
+
+        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
+
+
+    def back(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        CalendarPage(self.new_window)
+        pass
+
+
+
+#Should read the inputs
+#View Calendar (above)
+#View To-do list (below)
+#A button to view accomplished
+class ViewCalendar():
+    def __init__(self, root):
+        root.title("LBYCPA1 Project")
+        root.protocol("WM_DELETE_WINDOW", lambda : exit())
+        self.root = root
+
+        #Configuring styles
+        style = ttk.Style()
+        style.configure('Helvetica.TButton', font=("Helvetica", 14))
+
+        style = ttk.Style()
+        style.configure('Helvetica.TLabel', font=("Helvetica", 44, "bold"))
+
+        myLabel = ttk.Label(root, text="View", style = "Helvetica.TLabel")
+        myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
+
+        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
+
+
+    def back(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        CalendarPage(self.new_window)
+        pass
