@@ -25,8 +25,10 @@ Development (GUI / Function):
       - View Notes
       - Create Notes **(GUI: 90%; Function: 75%| Kyle)**
       - Delete Notes
-
+- Schedule Page
+      - Edit & View Schedule
+      - Add Schedule
+      - Back
 Assigned Parts: (add your own name, followed by what you want to do)  
 JL - GUI PALITAN KO NGA HEHE
-Wrenn - sdsd
-adsa- 
+Wrenn - schedule
