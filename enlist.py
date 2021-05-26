@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
 import pandas as pd
+import os
 
 class enlistMain:
     def __init__(self, root):
@@ -49,8 +50,9 @@ class enlistMain:
         self.time = StringVar()
         Label(mainframe, textvariable = self.time, width = 16, font = Font(size = 12, family =  "Helvetica"), borderwidth = 1, relief = "groove").grid(column = 2, row = 13, sticky = (W, E))
 
-        Label(mainframe).grid(column = 1, row = 14, sticky = W, pady = 8)
-        self.saveButton = ttk.Button(mainframe, text = "Save", width = 16, command = self.back)
+        self.errorText = StringVar()
+        Label(mainframe, textvariable = self.errorText, font = Font(family = "Helvetica", size = 8, slant = "italic")).grid(column = 1, row = 14, sticky = W, pady = 8)
+        self.saveButton = ttk.Button(mainframe, text = "Save", width = 16, command = self.save)
         ttk.Button(mainframe, text = "View Calendar", width = 20, command = self.back).grid(column = 2, row = 15, sticky = E, pady = 4)
         ttk.Button(mainframe, text = "Back", width = 16, command = self.back).grid(column = 1, row = 15, padx = 4, sticky = W, pady = 4)
         
@@ -111,9 +113,43 @@ class enlistMain:
 
         self.saveButton.grid(column = 2, row = 14, padx = 4, sticky = E, pady = 8)
 
+    def checkValidity(self, x, y):
+        startC, endC, startS, endS = float(x[-2]), float(x[-1]), float(y[-2]), float(y[-1])
+        if not ((startC >= startS and endC <= endS) or (startC <= startS and endC >= endS) or (startS <= startC <= endS or startC <= endC <= endS)):
+            return True
+        return False
+
+    def save(self, *args):
+        checkList = self.resultDetails
+        if os.stat("data\\schedule\\sched.txt").st_size == 0:
+            with open("data\\schedule\\sched.txt", mode = "a", encoding = "utf8") as writeText:
+                writeText.write(";".join(list(map(str, checkList))))
+        else:
+            if len(checkList[5]) == 2:
+                checkList[5] = [checkList[5][0], checkList[5][1]]
+
+            with open("data\\schedule\\sched.txt", mode = "r", encoding = "utf8") as schedText:
+                storedSched = [line.strip().split(";") for line in schedText.readlines()]
+            for line in storedSched:
+                if len(line[5]) == 2:
+                    line[5] = [line[5][0], line[5][1]]
+            valid = []
+            for classSched in storedSched:
+                if len(checkList[5]) == 2 and (checkList[5][0] in classSched[5] or checkList[5][1] in classSched[5]) and checkList[0] != classSched[0]:
+                    valid.append(self.checkValidity(checkList, classSched))
+                elif len(checkList[5]) == 1 and checkList[5] in classSched[5] and checkList[0] != classSched[0]:
+                    valid.append(self.checkValidity(checkList, classSched))
+                else:
+                    valid.append(False)
+            if all(valid):
+                with open("data\\schedule\\sched.txt", mode = "a", encoding = "utf8") as writeText:
+                    if len(checkList[5]) == 2:
+                        checkList[5] = checkList[5][0] + checkList[5][1]
+                    writeText.write("\n" + ";".join(list(map(str, checkList))))
+                self.errorText.set("")
+            else:
+                self.errorText.set("Invalid schedule")
+        
+
     def back(self, *args):
         self.root.destroy()
-
-root = Tk()
-enlistMain(root)
-root.mainloop()
