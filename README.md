@@ -28,4 +28,5 @@ Development (GUI / Function):
 
 Assigned Parts: (add your own name, followed by what you want to do)  
 JL - GUI PALITAN KO NGA HEHE
-Wrenn - 
+Wrenn - sdsd
+adsa- 
