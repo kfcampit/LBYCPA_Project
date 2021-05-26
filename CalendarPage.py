@@ -111,6 +111,7 @@ class CreateCalendar():
     #should save the inputs
     def save(self, *args):
         global cal
+        self.errorString.set("")
         date = str(cal.get_date()).replace("/","-")
         subject = self.subjectText.get()
         task = self.taskText.get("1.0",'end-1c')
@@ -123,17 +124,17 @@ class CreateCalendar():
 
         #Create the folder first for the date
         try:
-            os.mkdir("data\\tasks"+date)
+            os.mkdir("data\\tasks//"+date)
         except:
             #if it doesnt work, do nothing lmao
             x = 1+1
 
         #Try to open the 'date' file in tasks folder then write the txt
         try:
-            with open("data\\tasks" + date + "\\" + fileName, mode = "x", encoding = "utf8") as text:
+            with open("data\\tasks\\" + date + "\\" + fileName, mode = "x", encoding = "utf8") as text:
                 text.writelines("Date: " + date + "\n" + "Subject: " + subject + "\n" + task)
             with open("data\\tasks\\_master.txt", mode = "a", encoding = "utf8") as master:
-                master.write("\n" + fileName + ";" + subject)
+                master.write("\n" + date + ";" + fileName)
        
 
         except FileExistsError:
