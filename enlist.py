@@ -101,7 +101,7 @@ class enlistMain:
         self.read = pd.read_csv('data\\database\\gcoe_t2_2021_database.csv')
         searched = self.read.loc[self.read["CLASS NO"] == int(self.courseNo.get()), ["COURSE CODE", "COURSE TITLE", "OFFERED to", "SEC", "FACULTY", "DAY1", "BEGIN1", "END1"]]
         self.resultDetails = searched.values.tolist()[0]
-        
+
         self.courseName.set(self.resultDetails[1])
         self.facultyName.set(self.resultDetails[4])
         self.courseCde.set(self.resultDetails[0])
@@ -113,15 +113,6 @@ class enlistMain:
 
     def back(self, *args):
         self.root.destroy()
-
-
-
-
-        
-
-
-        
-
 
 root = Tk()
 enlistMain(root)
