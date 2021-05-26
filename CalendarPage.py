@@ -161,19 +161,20 @@ class EditCalendar():
         myLabel = ttk.Label(root, text="Edit", style = "HelveticaT.TLabel")
         myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
 
-        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
+        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 0, row = 4, padx = 4, sticky = W, pady = 8)
 
         ttk.Label(root, text = "Choose: ", style = "Helvetica.TLabel").grid(row =1, column = 0, sticky = W)
         self.titleText = StringVar(root)
         self.titleText.set("Select a Date - Subject")
-        OptionMenu(root, self.titleText, *optionList).grid(column = 1, row = 1, sticky = (W,N), ipadx = 120, pady = 50, padx = 32)
+        OptionMenu(root, self.titleText, *optionList).grid(column = 1, row = 1, sticky = (W,N), ipadx = 120, padx = 32)
        
-        ttk.Button(root, text = "Load", width = 16, command = self.loadContent).grid(column = 2, row = 2, padx = 4, sticky = E, pady = 8)
+        ttk.Button(root, text = "Load", width = 16, command = self.loadContent).grid(column = 2, row = 1, padx = 4, sticky = E, pady = 8)
+        ttk.Button(root, text = "Save", width = 16, command = self.saveContent).grid(column = 2, row = 2, padx = 4, sticky = E, pady = 8)
         
-        ttk.Label(root, text = "Tasks:", style = 'Helvetica.TLabel').grid(row = 3, column = 0, sticky = W)
+        ttk.Label(root, text = "Tasks:", style = 'Helvetica.TLabel').grid(row = 2, column = 0, sticky = W)
         
-        self.taskText = Text(root, width = 87, height = 3)
-        self.taskText.grid(columnspan = 2, column = 0, row = 4, padx = 4)
+        self.taskText = Text(root, width = 87, height = 30)
+        self.taskText.grid(columnspan = 2, column = 0, row = 3, padx = 10, pady = 10, sticky = (N,W))
 
         #A dropdown to pick a Subject on said date DONE!
         #A load button that loads the tasks of the chosen subject on said date IN PROGRESS
@@ -186,21 +187,36 @@ class EditCalendar():
             for line in self.listText:
                 if (self.titleText.get().replace(" - ",";") + ".txt") == line:
                     chosen = line.split(";")
-                    Idate = chosen[0]
-                    Isubj = chosen[1]
-            with open("data\\tasks\\" + Idate + "\\" + Isubj, mode = "r", encoding = "utf8") as text:
+                    self.Idate = chosen[0]
+                    self.Isubj = chosen[1]
+                    self.filename = ("data\\tasks\\" + self.Idate + "\\" + self.Isubj)
+            with open(self.filename, mode = "r", encoding = "utf8") as text:
                 textread = text.readlines()
-            print(textread)
-            # content = "".join(text.readlines())
-            # self.contentText.delete(1.0, "end")
-            # self.contentText.insert(1.0, content)
+            textread = "".join(textread[2:])
+            self.taskText.delete(1.0, "end")
+            self.taskText.insert(1.0, textread)
         except:
             pass
+
+    def saveContent(self, *args):
+        task = self.taskText.get("1.0",'end-1c')
+        date = self.Idate
+        subject = self.Isubj.strip(".txt")
+        try:
+            with open(self.filename, mode = "w", encoding = "utf8") as text:
+                text.writelines("Date: " + date + "\n" + "Subject: " + subject + "\n" + task)
+        except:
+            pass
+        else:
+            messagebox.showinfo("Saved!", "Tasks saved!")
+        finally:
+            text.close()
 
 
     def loadList(self, *args):
         loadedList = []
         with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as text:
+
             self.listText = text.readlines()
         self.listText = [i.strip("\n") for i in self.listText] 
         for line in self.listText:
