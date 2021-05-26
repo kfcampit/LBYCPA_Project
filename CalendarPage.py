@@ -57,7 +57,7 @@ class CalendarPage():
         self.root.destroy()
         pass
 
-
+# DONE!!
 class CreateCalendar():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
@@ -142,12 +142,7 @@ class CreateCalendar():
         
 
 
-
-
-#Should show a dropdown menu of previous inputs
-#Load
-#Mark as Accomplished (Delete, but save on accomplish txt)
-#Delete
+#In Progress
 class EditCalendar():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
@@ -165,6 +160,15 @@ class EditCalendar():
         myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
 
         ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
+
+        #A dropdown to pick a Subject on said date
+        #A load button that loads the tasks of the chosen subject on said date
+        #A delete button that removes the task
+        #A Mark as done button that moves the task to accomplished
+        #A save button that saves the edits
+
+
+
 
 
     def back(self, *args):
@@ -196,6 +200,15 @@ class ViewCalendar():
         myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
 
         ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
+
+        # View calendar with events (tags)
+
+        # View to do list below
+
+        # A button to view accomplished tasks
+
+
+        
 
 
     def back(self, *args):
