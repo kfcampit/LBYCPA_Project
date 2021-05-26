@@ -1,5 +1,6 @@
 from notebook import notebookMain
 from gradeCalculator import gradeCalculator
+from CalendarPage import CalendarPage
 from flashcards import *
 from tkinter import *
 from tkinter import ttk
@@ -33,9 +34,13 @@ class mainMenu:
         pass
 
     def calendarPage(self, *args):
+        self.root.destroy()
+        self.new_window = Tk()
+        CalendarPage(self.new_window)
         pass
 
     def schedulePage(self, *args):
+
         pass
 
     def gradesPage(self, *args):
