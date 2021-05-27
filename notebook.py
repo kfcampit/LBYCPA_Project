@@ -143,6 +143,10 @@ class notebookView:
             pass
 
     def delete(self, *args):
+        if self.titleText.get() != "Select a Notebook":
+            for line in self.listText:
+                if self.titleText.get() == line.split(";")[1][:-1]:
+                    self.fileName = line.split(";")[0]
         os.remove("data\\notes\\" + self.fileName)
 
         with open("data\\notes\\_master.txt", mode = "r", encoding = "utf8") as removeLine:

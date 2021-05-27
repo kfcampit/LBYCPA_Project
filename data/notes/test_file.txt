@@ -1,2 +1,0 @@
-test file
-hello this is a sample text hello test
