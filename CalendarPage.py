@@ -116,6 +116,13 @@ class CreateCalendar():
         subject = self.subjectText.get()
         task = self.taskText.get("1.0",'end-1c')
 
+        #Putting 0s on digits with less than 2
+        splitDate = date.split("-")
+        if int(splitDate[1]) < 10:
+            splitDate[1] = "0" + splitDate[1]
+        date = "-".join(splitDate)
+
+
         fileName = subject + ".txt"
         # debug
         # print(date)
@@ -135,7 +142,18 @@ class CreateCalendar():
             with open("data\\tasks\\_master.txt", mode = "a", encoding = "utf8") as master:
                 master.write("\n" + date + ";" + fileName)
        
-
+            with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as sortIT:
+                lines = sortIT.readlines()
+            lines[-1] = lines[-1] + "\n"
+            lines = sorted(lines)
+            print(lines)
+            concatenation = ""
+            for line in lines:
+                print(line)
+                concatenation = concatenation + line
+            print(concatenation.rstrip("\n"))
+            with open("data\\tasks\\_master.txt", mode = "w", encoding = "utf8") as rewrite:
+                rewrite.write(concatenation.rstrip("\n"))
         except FileExistsError:
             self.errorString.set("Subject already has task in date!! Go to edit to add/mark as done/delete tasks")
         
@@ -238,6 +256,8 @@ class EditCalendar():
 
         with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as removeLine:
             lines = removeLine.readlines()
+        lines[-1] = lines[-1] + "\n"
+        lines = sorted(lines)
         selected = (self.Idate + ";" + self.Isubj)
         concatenation = ""
         for line in lines:
@@ -282,7 +302,28 @@ class ViewCalendar():
         ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
 
         # View calendar with events (tags)
+        
+        # cal = Calendar(root, selectmode='none')
+        # date = cal.datetime.today() + cal.timedelta(days=2)
+        # cal.calevent_create(date, 'Hello World', 'message')
+        # cal.calevent_create(date, 'Reminder 2', 'reminder')
+        # cal.calevent_create(date + cal.timedelta(days=-2), 'Reminder 1', 'reminder')
+        # cal.calevent_create(date + cal.timedelta(days=3), 'Message', 'message')
 
+        with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as removeLine:
+            lines = removeLine.readlines()
+        dates = []
+        for line in lines:
+            if not (line == '\n' or line == ''):
+                dates.append(line.rstrip("\n"))
+        dates = sorted(dates)
+        print(dates)
+
+
+        # cal.tag_config('reminder', background='red', foreground='yellow')
+
+        # cal.pack(fill="both", expand=True)
+        # ttk.Label(top, text="Hover over the events.").pack()
         # View to do list below
 
         # A button to view accomplished tasks
