@@ -170,6 +170,7 @@ class EditCalendar():
        
         ttk.Button(root, text = "Load", width = 16, command = self.loadContent).grid(column = 2, row = 1, padx = 4, sticky = E, pady = 8)
         ttk.Button(root, text = "Save", width = 16, command = self.saveContent).grid(column = 2, row = 2, padx = 4, sticky = E, pady = 8)
+        ttk.Button(root, text = "Delete", width = 14, command = self.delete).grid(column = 2, row = 3, padx = 4, sticky = E, pady = 8)
         
         ttk.Label(root, text = "Tasks:", style = 'Helvetica.TLabel').grid(row = 2, column = 0, sticky = W)
         
@@ -216,7 +217,6 @@ class EditCalendar():
     def loadList(self, *args):
         loadedList = []
         with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as text:
-
             self.listText = text.readlines()
         self.listText = [i.strip("\n") for i in self.listText] 
         for line in self.listText:
@@ -224,11 +224,32 @@ class EditCalendar():
                 loadedList.append(line.replace(";"," - ").replace(".txt",""))
         return loadedList
 
+    def delete(self, *args):
+        try:
+            for line in self.listText:
+                if (self.titleText.get().replace(" - ",";") + ".txt") == line:
+                    chosen = line.split(";")
+                    self.Idate = chosen[0]
+                    self.Isubj = chosen[1]
+                    self.filename = ("data\\tasks\\" + self.Idate + "\\" + self.Isubj)
+        except:
+            pass
+        #os.remove(self.filename)
+        # os.remove("data\\notes\\" + self.fileName)
+
+        with open(self.filename, mode = "r", encoding = "utf8") as removeLine:
+            lines = removeLine.readlines()
+        print(lines)
+        # with open("data\\notes\\_master.txt", mode = "w", encoding = "utf8") as rewrite:
+        #     for line in lines:
+        #         if not self.fileName in line:
+        #             rewrite.write(line[:-1] + "\n")
+
 
 
     def back(self, *args):
         self.root.destroy()
-        self.new_window = Tk()
+        elf.new_window = Tk()
         CalendarPage(self.new_window)
         pass
 
