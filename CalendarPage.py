@@ -234,22 +234,26 @@ class EditCalendar():
                     self.filename = ("data\\tasks\\" + self.Idate + "\\" + self.Isubj)
         except:
             pass
-        #os.remove(self.filename)
-        # os.remove("data\\notes\\" + self.fileName)
+        os.remove(self.filename)
 
-        with open(self.filename, mode = "r", encoding = "utf8") as removeLine:
+        with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as removeLine:
             lines = removeLine.readlines()
-        print(lines)
-        # with open("data\\notes\\_master.txt", mode = "w", encoding = "utf8") as rewrite:
-        #     for line in lines:
-        #         if not self.fileName in line:
-        #             rewrite.write(line[:-1] + "\n")
+        selected = (self.Idate + ";" + self.Isubj)
+        concatenation = ""
+        for line in lines:
+            if not selected in line:
+                concatenation = concatenation + line
+        with open("data\\tasks\\_master.txt", mode = "w", encoding = "utf8") as rewrite:
+            rewrite.write(concatenation.rstrip("\n"))
+        self.root.destroy()
+        self.new_window = Tk()
+        CalendarPage(self.new_window)
 
 
 
     def back(self, *args):
         self.root.destroy()
-        elf.new_window = Tk()
+        self.new_window = Tk()
         CalendarPage(self.new_window)
         pass
 
