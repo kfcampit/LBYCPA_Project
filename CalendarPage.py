@@ -283,6 +283,7 @@ class ViewCalendar():
         root.title("LBYCPA1 Project")
         root.protocol("WM_DELETE_WINDOW", lambda : exit())
         self.root = root
+        root.update_idletasks()
 
         #Configuring styles
         style = ttk.Style()
@@ -294,16 +295,11 @@ class ViewCalendar():
         myLabel = ttk.Label(root, text="View", style = "Helvetica.TLabel")
         myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
 
-        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 1, row = 5, padx = 4, sticky = W, pady = 8)
+        ttk.Button(root, text = "Back", width = 16, command = self.back).grid(column = 0, row = 5, columnspan = 3, padx = 4, sticky = W, pady = 8)
 
         # View calendar with events (tags)
         
         cal = Calendar(root, selectmode='none')
-        # cal.calevent_create(date, 'Hello World', 'message')
-        # cal.calevent_create(date, 'Reminder 2', 'reminder')
-        # cal.calevent_create(date + cal.timedelta(days=-2), 'Reminder 1', 'reminder')
-        # cal.calevent_create(date + cal.timedelta(days=3), 'Message', 'message')
-
         with open("data\\tasks\\_master.txt", mode = "r", encoding = "utf8") as removeLine:
             lines = removeLine.readlines()
         dates = []
@@ -311,17 +307,18 @@ class ViewCalendar():
             if not (line == '\n' or line == ''):
                 dates.append(line.rstrip("\n"))
         dates = sorted(dates)
-        print(dates)
 
         for date in dates:
             date = date.split(";")
-            cal.calevent_create(date[0], date[1], 'reminder')
+            dmy = date[0].split("-")
+            buffer = datetime.datetime(int(dmy[2]),int(dmy[0]),int(dmy[1]))
+            cal.calevent_create(buffer, date[1].rstrip(".txt"), 'reminder')
 
         cal.tag_config('reminder', background='red', foreground='yellow')
 
-        cal.grid(row=0,column=0,expand=True)
-        # ttk.Label(top, text="Hover over the events.").pack()
-        # View to do list below
+        cal.grid(row=1,column=0,columnspan=3,padx=10,ipadx=10)
+        ttk.Label(root, text="Hover over to see deadlines.").grid(row=2,column=0,columnspan=3)
+
 
         # A button to view accomplished tasks
 
