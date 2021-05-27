@@ -12,14 +12,14 @@ Development (GUI / Function):
  - Enlist Page **(GUI: 100%; Function: 100%| Kyle)**
  - Schedule Page
  - Calendar Page
-      - Main Calendar
-      - Add to Calendar
-      - Delete from Calendar
+      - Main Calendar **(GUI: 100%; Function: 100%| JL)**
+      - Add to Calendar **(GUI: 100%; Function: 100%| JL)**
+      - Delete from Calendar **(GUI: 100%; Function: 100%| JL)**
  - Grade Page **(GUI: 90%; Function: 90%| Kyle)**
  - Flashcards Page
-      - Main Flashcard Page **(GUI: 100%; Function: 80%| JL)**
+      - Main Flashcard Page **(GUI: 100%; Function: 100%| JL)**
       - Create/Edit Flashcards **(GUI: 100%; Function: 100%| JL)**
-      - Study with Flashcards 
+      - Study with Flashcards **(GUI: 100%; Function: 100%| JL)**
  - Notes Page
       - Main Notes Page **(GUI: 100%; Function: 100%| Kyle)**
       - View Notes **(GUI: 100%; Function: 100%| Kyle)**
