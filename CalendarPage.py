@@ -195,6 +195,8 @@ class EditCalendar():
         self.taskText = Text(root, width = 87, height = 30)
         self.taskText.grid(columnspan = 2, column = 0, row = 3, padx = 10, pady = 10, sticky = (N,W))
 
+
+
         #A dropdown to pick a Subject on said date DONE!
         #A load button that loads the tasks of the chosen subject on said date IN PROGRESS
         #A delete button that removes the task
@@ -320,9 +322,36 @@ class ViewCalendar():
         ttk.Label(root, text="Hover over to see deadlines.").grid(row=2,column=0,columnspan=3)
 
 
-        # A button to view accomplished tasks
+        self.taskText = Text(root, width = 87, height = 30)
+        
+        self.taskText.grid(columnspan = 2, column = 0, row = 3, padx = 10, pady = 10, sticky = (N,W))
 
+        #Insert to taskText ebrything
+        everything = []
+        for date in dates:
+            date = date.split(";")
+            foldername = date[0]
+            filename = date[1]
+            with open("data\\tasks\\" + foldername + "\\" + filename, mode = "r", encoding = "utf8") as read:
+                lines = read.readlines()
+            everything.append(lines)
 
+        for thing in everything:
+            for x in thing:
+                x = x.rstrip("\n")
+                x = x + "\n"
+                self.taskText.insert(END, x)
+        self.taskText.configure(state='disabled')
+            #     if (self.titleText.get().replace(" - ",";") + ".txt") == line:
+            #         chosen = line.split(";")
+            #         self.Idate = chosen[0]
+            #         self.Isubj = chosen[1]
+            #         self.filename = ("data\\tasks\\" + self.Idate + "\\" + self.Isubj)
+            # with open(self.filename, mode = "r", encoding = "utf8") as text:
+            #     textread = text.readlines()
+            # textread = "".join(textread[2:])
+            # self.taskText.delete(1.0, "end")
+            # self.taskText.insert(1.0, textread)
         
     
 
