@@ -9,6 +9,7 @@ import os
 
 #Click the buttons on the left side to better understand our code
 
+#Main Calendar Page
 class CalendarPage():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
@@ -58,7 +59,7 @@ class CalendarPage():
         self.root.destroy()
         pass
 
-# DONE!!
+#Create Calendar Page
 class CreateCalendar():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
@@ -159,7 +160,7 @@ class CreateCalendar():
         except FileExistsError:
             self.errorString.set("Subject already has task in date!! Go to edit to add/mark as done/delete tasks")
         
-# DONE!!
+#Edit Calendar Page
 class EditCalendar():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
@@ -279,7 +280,7 @@ class EditCalendar():
         CalendarPage(self.new_window)
         pass
 
-# In progress
+#View Calendar Page
 class ViewCalendar():
     def __init__(self, root):
         root.title("LBYCPA1 Project")

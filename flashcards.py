@@ -42,7 +42,7 @@ class flashcard():
 
     def edit(self, *args):
         try:
-            with open("Flashcards.txt", mode="r") as r:
+            with open("data\\Flashcards.txt", mode="r") as r:
                 lines = r.readlines()
         except:
             messagebox.showerror("Flashcards.txt not detected", "Make sure to CREATE first before editing")
@@ -54,7 +54,7 @@ class flashcard():
 
     def study(self, *args):
         try:
-            with open("Flashcards.txt", mode="r") as r:
+            with open("data\\Flashcards.txt", mode="r") as r:
                 lines = r.readlines()
         except:
             messagebox.showerror("Flashcards.txt not detected", "Make sure to CREATE first before editing")
@@ -112,7 +112,7 @@ class create():
             except:
                 messagebox.showerror("Not the same number of Questions and Answers", "Make sure that the questions and answers are separated by 'enter' and they are of the same length")
             else:
-                with open("Flashcards.txt", mode="w+") as f:
+                with open("data\\Flashcards.txt", mode="w+") as f:
                     for i in range(len(Questions)):
                         f.write(Questions[i])
                         f.write("\n")
@@ -153,7 +153,7 @@ class edit():
         self.Answer = Text(root, height = 10, width = 50)
         self.Answer.grid(row = 2, column = 3, padx = 30, pady=30)
 
-        with open("Flashcards.txt",mode = 'r') as r:
+        with open("data\\Flashcards.txt",mode = 'r') as r:
             lines = r.readlines()
         for i in range(0,len(lines),2):
             self.Question.insert(INSERT,lines[i])
@@ -177,7 +177,7 @@ class edit():
             except:
                 messagebox.showerror("Not the same number of Questions and Answers", "Make sure that the questions and answers are separated by 'enter' and they are of the same length")
             else:
-                with open("Flashcards.txt", mode="w+") as f:
+                with open("data\\Flashcards.txt", mode="w+") as f:
                     for i in range(len(Questions)):
                         f.write(Questions[i])
                         f.write("\n")
@@ -206,7 +206,7 @@ class study():
         myLabel = ttk.Label(root, text= "STUDY", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 0,columnspan = 3, padx = 50, pady = 20)
 
-        with open("Flashcards.txt",mode = 'r') as r:
+        with open("data\\Flashcards.txt",mode = 'r') as r:
             lines = r.readlines()
         
         global counter
