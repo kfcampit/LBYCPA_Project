@@ -4,9 +4,10 @@ from tkinter.font import Font
 from tkinter import Text, Tk
 from tkinter import messagebox
 from tkcalendar import Calendar, DateEntry
+import datetime
 import os
 
-
+#Click the buttons on the left side to better understand our code
 
 class CalendarPage():
     def __init__(self, root):
@@ -118,8 +119,11 @@ class CreateCalendar():
 
         #Putting 0s on digits with less than 2
         splitDate = date.split("-")
+        if int(splitDate[0]) < 10:
+            splitDate[0] = "0" + splitDate[0]
         if int(splitDate[1]) < 10:
             splitDate[1] = "0" + splitDate[1]
+        splitDate[2] = "20" + splitDate[2]
         date = "-".join(splitDate)
 
 
@@ -146,20 +150,16 @@ class CreateCalendar():
                 lines = sortIT.readlines()
             lines[-1] = lines[-1] + "\n"
             lines = sorted(lines)
-            print(lines)
             concatenation = ""
             for line in lines:
                 print(line)
                 concatenation = concatenation + line
-            print(concatenation.rstrip("\n"))
             with open("data\\tasks\\_master.txt", mode = "w", encoding = "utf8") as rewrite:
                 rewrite.write(concatenation.rstrip("\n"))
         except FileExistsError:
             self.errorString.set("Subject already has task in date!! Go to edit to add/mark as done/delete tasks")
         
-
-
-#In Progress
+# DONE!!
 class EditCalendar():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
@@ -277,12 +277,7 @@ class EditCalendar():
         CalendarPage(self.new_window)
         pass
 
-
-
-#Should read the inputs
-#View Calendar (above)
-#View To-do list (below)
-#A button to view accomplished
+# In progress
 class ViewCalendar():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
@@ -303,8 +298,7 @@ class ViewCalendar():
 
         # View calendar with events (tags)
         
-        # cal = Calendar(root, selectmode='none')
-        # date = cal.datetime.today() + cal.timedelta(days=2)
+        cal = Calendar(root, selectmode='none')
         # cal.calevent_create(date, 'Hello World', 'message')
         # cal.calevent_create(date, 'Reminder 2', 'reminder')
         # cal.calevent_create(date + cal.timedelta(days=-2), 'Reminder 1', 'reminder')
@@ -319,10 +313,13 @@ class ViewCalendar():
         dates = sorted(dates)
         print(dates)
 
+        for date in dates:
+            date = date.split(";")
+            cal.calevent_create(date[0], date[1], 'reminder')
 
-        # cal.tag_config('reminder', background='red', foreground='yellow')
+        cal.tag_config('reminder', background='red', foreground='yellow')
 
-        # cal.pack(fill="both", expand=True)
+        cal.grid(row=0,column=0,expand=True)
         # ttk.Label(top, text="Hover over the events.").pack()
         # View to do list below
 
