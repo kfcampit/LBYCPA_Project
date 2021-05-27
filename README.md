@@ -22,10 +22,13 @@ Development (GUI / Function):
       - Study with Flashcards **(GUI: 100%; Function: 100%| JL)**
  - Notes Page
       - Main Notes Page **(GUI: 100%; Function: 100%| Kyle)**
-      - View Notes **(GUI: 100%; Function: 100%| Kyle)**
-      - Create Notes **(GUI: 100%; Function: 100%| Kyle)**
-      - Delete Notes **(GUI: 100%; Function: 100%| Kyle)**
-
+      - View Notes
+      - Create Notes **(GUI: 90%; Function: 75%| Kyle)**
+      - Delete Notes
+ - Schedule Page
+      - Edit & View Schedule
+      - Add Schedule
+      - Back
 Assigned Parts: (add your own name, followed by what you want to do)  
 JL - GUI PALITAN KO NGA HEHE
-Wrenn - 
+Wrenn - schedule
