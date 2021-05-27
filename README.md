@@ -8,8 +8,8 @@ Estimated time of finish @May 24 2021(?)
 Development (GUI / Function):
  - Welcome Page
  - Name Prompt
- - Main Menu **(GUI: 80%; Function: 15%| Kyle)**
- - Enlist Page **(GUI: 0%; Function: 30%| Kyle)**
+ - Main Menu **(GUI: 80%; Function: 80%| Kyle)**
+ - Enlist Page **(GUI: 100%; Function: 100%| Kyle)**
  - Schedule Page
  - Calendar Page
       - Main Calendar
@@ -25,7 +25,7 @@ Development (GUI / Function):
       - View Notes
       - Create Notes **(GUI: 90%; Function: 75%| Kyle)**
       - Delete Notes
-- Schedule Page
+ - Schedule Page
       - Edit & View Schedule
       - Add Schedule
       - Back

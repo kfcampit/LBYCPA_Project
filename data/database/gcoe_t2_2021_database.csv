@@ -1,0 +1,639 @@
+ENR Students,STATUS,CLASS NO,COURSE CODE,COURSE TITLE,OFFERED to,SEC,FACULTY,DAY1,BEGIN1,END1,ENR CAP,REMARKS
+,,1934,ADSEMI1,Advanced Seminar for IE Majors,E,R1,"ONG, KARL BENEDICT NGO",TBA,0,0,25,Fullonline
+,,316,ADSYSMA,Advanced Manufacturing System s,E,B,"MARIONO, RONALD SANTILLAN",MW,1615,1745,40,Fullonline
+,,1555,AIRVENT,Air-Conditioning and Ventilation Systems,E,E,"DELA CRUZ, EFREN GARCIA",MW,1100,1230,28,
+,,1554,AIRVENT,Air-Conditioning and Ventilation Systems,E,F1,"DELA CRUZ, EFREN GARCIA",TH,1100,1230,28,
+,,1553,AIRVENT,Air-Conditioning and Ventilation Systems,E,F2,"DELA CRUZ, EFREN GARCIA",MW,1430,1600,28,
+,,1935,ANLYCHE,Analytical Chemistry for Chemical Eng'g.,E,A1,"MALABED, RAYMOND SAMSON",TH,730,900,35,Fullonline
+,,1936,ANLYCHE,Analytical Chemistry for Chemical Eng'g.,E,A2,"GARCIA, JOEL",MW,730,900,35,Fullonline
+,,1937,ANLYCHE,Analytical Chemistry for Chemical Eng'g.,E,A3,"MALABED, RAYMOND SAMSON",TH,915,1045,35,Fullonline
+,,424,BASCHEM,Basic Chemistry,E,R1,"GARCIA, JOEL",MW,1430,1600,43,Fullonline
+,,1938,BASELCI,Electrical Engineering Principles Lab for MEM,E,G1,,MW,730,900,22,Fullonline
+,,1939,BASELCI,Electrical Engineering Principles Lab for MEM,E,G2,,TH,730,900,22,Fullonline
+,,1940,BASELCI,Electrical Engineering Principles Lab for MEM,E,G3,,MW,1515,1745,22,Fullonline
+,,1941,BASPHYS,Basic Physics,E,R1,,TH,1430,1600,35,Fullonline
+,,1279,CALENG1,Differential Calculus,E,B1,,TH,730,900,40,Fullonline
+,,1278,CALENG1,Differential Calculus,E,B2,,TH,730,900,40,Fullonline
+,,1277,CALENG1,Differential Calculus,E,C1,,TH,915,1045,40,Fullonline
+,,1276,CALENG1,Differential Calculus,E,C2,,TH,915,1045,40,Fullonline
+,,1275,CALENG1,Differential Calculus,E,D1,,MW,730,900,40,Fullonline
+,,1258,CALENG1,Differential Calculus,E,A1,,MW,730,900,40,Fullonline
+,,1274,CALENG1,Differential Calculus,E,A2,,MW,1245,1415,40,Fullonline
+,,1273,CALENG1,Differential Calculus,E,A3,,MW,915,1045,40,Fullonline
+,,1272,CALENG1,Differential Calculus,E,H,,MW,1100,1230,40,Fullonline
+,,1271,CALENG1,Differential Calculus,E,I,,TH,1100,1230,40,Fullonline
+,,1270,CALENG1,Differential Calculus,E,J,,MW,1245,1415,40,Fullonline
+,,1269,CALENG1,Differential Calculus,E,W,,TH,1245,1415,40,Fullonline
+,,1268,CALENG1,Differential Calculus,E,V1,,MW,1245,1415,40,Fullonline
+,,1267,CALENG1,Differential Calculus,E,V2,,TH,1245,1415,40,Fullonline
+,,1266,CALENG1,Differential Calculus,E,E1,,MW,1100,1230,40,Fullonline
+,,1265,CALENG1,Differential Calculus,E,E2,,TH,1100,1230,40,Fullonline
+,,1264,CALENG1,Differential Calculus,E,F,,MW,1100,1230,40,Fullonline
+,,1263,CALENG1,Differential Calculus,E,Q1,,MW,730,900,40,Fullonline
+,,1262,CALENG1,Differential Calculus,E,Q2,,TH,730,900,40,Fullonline
+,,1261,CALENG1,Differential Calculus,E,G1,,MW,915,1045,40,Fullonline
+,,1260,CALENG1,Differential Calculus,E,G2,,TH,1100,1230,40,Fullonline
+,,1259,CALENG1,Differential Calculus,E,K,,TH,915,1045,40,Fullonline
+,,1948,CALENG3,Diffential Equations,E,R1,,TH,915,1045,30,Fullonline
+,,1949,CALENG3,Diffential Equations,E,R2,,TH,1100,1230,30,Fullonline
+,,1950,CALENG3,Diffential Equations,E,R3,,MW,1430,1600,30,Fullonline
+,,3329,CEBUILD,Building system Design 1,E,H,"EJE, JUANITO VILLENA",MW,1800,1900,40,Fullonline
+,,3330,CEBUILD,Building system Design 1,E,I,"EJE, JUANITO VILLENA",TH,800,900,40,Fullonline
+,,3331,CEBUILD,Building system Design 1,E,J,"EJE, JUANITO VILLENA",MW,1615,1715,40,Fullonline
+,,767,CEHDRA1,Hydraulics 1,E,EH,"DE LEON, MARIO PERUELO",MW,1430,1600,40,Fullonline
+,,766,CEHDRA1,Hydraulics 1,E,EI,"DE LEON, MARIO PERUELO",TH,1100,1230,40,Fullonline
+,,765,CEHDRA1,Hydraulics 1,E,EJ,"REDILLAS, MARLA MANIQUIZ",MW,1245,1415,40,Fullonline
+,,764,CEHDRA1,Hydraulics 1,E,EW,"REDILLAS, MARLA MANIQUIZ",TH,1100,1230,40,Fullonline
+,,1783,CEMANAG,Engineering Management for CIV,E,H,"ONGPENG, JASON MAXIMINO CO",TH,915,1015,40,Fullonline
+,,1782,CEMANAG,Engineering Management for CIV,E,I,"ONGPENG, JASON MAXIMINO CO",MW,915,1015,40,Fullonline
+,,1781,CEMANAG,Engineering Management for CIV,E,J,"ONGPENG, JASON MAXIMINO CO",TH,730,830,40,Fullonline
+,,1780,CEMANAG,Engineering Management for CIV,E,W,"ONGPENG, JASON MAXIMINO CO",MW,730,830,40,Fullonline
+,,334,CENUMER,Numerical Solutions to CE Problems,E,H,"ROXAS, CHERYL LYNE CAPIZ",TH,1245,1345,40,Fullonline
+,,333,CENUMER,Numerical Solutions to CE Problems,E,I,"ROXAS, CHERYL LYNE CAPIZ",TH,1100,1200,40,Fullonline
+,,332,CENUMER,Numerical Solutions to CE Problems,E,J,"ROXAS, CHERYL LYNE CAPIZ",MW,1100,1200,40,Fullonline
+,,331,CENUMER,Numerical Solutions to CE Problems,E,W,"ROXAS, CHERYL LYNE CAPIZ",TH,730,830,40,Fullonline
+,,3332,CERCDES,Principles of Reinforced Concreate,E,H,"LEJANO, BERNARDO ABREU",TH,1245,1415,40,Fullonline
+,,3333,CERCDES,Principles of Reinforced Concreate,E,I,"LEJANO, BERNARDO ABREU",MW,1245,1415,40,Fullonline
+,,3334,CERCDES,Principles of Reinforced Concreate,E,J,"LEJANO, BERNARDO ABREU",MW,1430,1600,40,Fullonline
+,,1957,CESURVE,Fundamentals of Surveying,E,H,,TH,730,900,35,Fullonline
+,,1958,CESURVE,Fundamentals of Surveying,E,I,,MW,730,900,35,Fullonline
+,,1959,CESURVE,Fundamentals of Surveying,E,J,,TH,915,1045,35,Fullonline
+,,1960,CESURVE,Fundamentals of Surveying,E,W,,MW,915,1045,35,Fullonline
+,,1961,CESURVE,Fundamentals of Surveying,E,V1,,TH,915,1045,35,Fullonline
+,,1962,CESURVE,Fundamentals of Surveying,E,V2,,MW,915,1045,35,Fullonline
+,,3527,CETRANS,Transfortation Engineering,E,H,"LUCERO, PAOLO IAN CASIPIT",TH,1100,1200,40,Fullonline
+,,3526,CETRANS,Transfortation Engineering,E,I,"LUCERO, PAOLO IAN CASIPIT",MW,1100,1200,40,Fullonline
+,,3525,CETRANS,Transfortation Engineering,E,J,"ROXAS, NICANOR RODRIGUEZ",MW,1245,1345,40,Fullonline
+,,3473,CEUTIL1,Basic Electrical Engineering for Civ,E,H,"ONGPENG, JASON MAXIMINO CO",MW,1245,1415,40,Fullonline
+,,3472,CEUTIL1,Basic Electrical Engineering for Civ,E,I,,TH,1245,1415,40,Fullonline
+,,3471,CEUTIL1,Basic Electrical Engineering for Civ,E,J,,MW,1800,1730,40,Fullonline
+,,975,CHECALC,Chemical Engineering Calculations,E,R1,,TH,1800,1930,35,Fullonline
+,,628,CHEMAT4,Advanced Eng'g Mathematics in Chemical Eng'g,E,A1,,MW,1100,1230,30,Fullonline
+,,627,CHEMAT4,Advanced Eng'g Mathematics in Chemical Eng'g,E,A2,,MW,915,1045,30,Fullonline
+,,626,CHEMAT4,Advanced Eng'g Mathematics in Chemical Eng'g,E,A3,,MW,1100,1230,30,Fullonline
+,,1513,CHETHSA,CHE Thesis 1,E,R1,"BELO, LAWRENCE PHOA",-,0,0,45,Fullonline
+,,1825,CHETHSB,CHE Thesis 2,E,R1,"BELO, LAWRENCE PHOA",-,0,0,45,Fullonline
+,,1556,CHETHSC,CHE Thesis 3,E,A,"BELO, LAWRENCE PHOA",-,0,0,45,Fullonline
+,,227,CIVDES2,Structural Design 2 (Steel),E,H,"DE JESUS, RICHARD MORTEL",MW,1245,1415,35,Fullonline
+,,228,CIVDES2,Structural Design 2 (Steel),E,I,"DE JESUS, RICHARD MORTEL",TH,1245,1415,35,Fullonline
+,,851,CIVIMEC,Mechanical Engineering Practices Engineers,E,H,,TH,1100,1230,35,Fullonline
+,,850,CIVIMEC,Mechanical Engineering Practices Engineers,E,I,,MW,1430,1600,35,Fullonline
+,,229,CIVTREN,Transportation Engineering,E,H,"FILLONE, ALEXIS MORALES",MW,1100,1200,35,Fullonline
+,,230,CIVTREN,Transportation Engineering,E,I,"FILLONE, ALEXIS MORALES",MW,915,1015,35,Fullonline
+,,922,COEDISC,Computer Engineering as a Discipline,E,Q1,,M,945,1045,30,Fullonline
+,,921,COEDISC,Computer Engineering as a Discipline,E,Q2,,T,945,1045,30,Fullonline
+,,325,COEDISC,Computer Engineering as a Discipline,E,Q3,,W,945,1045,30,Fullonline
+,,1702,COGERG2,Cognitive Ergonomics,E,R1,"TANGSOC, JAZMIN CHONG",W,1245,1345,40,Fullonline
+,,389,COMPSAD,Computer System Analysis and Design,E,Q1,,MW,1430,1530,35,Fullonline
+,,3493,CPECOG1,CPE Eelctive 1 Lecture,E,Q1,"OCHOTORENA, CARLO NOEL ESTRADA",TH,1430,1530,35,Fullonline
+,,3492,CPECOG1,CPE Eelctive 1 Lecture,E,Q2,"OCHOTORENA, CARLO NOEL ESTRADA",MW,1430,1530,35,Fullonline
+,,803,CPLCTV3,Computer Engineering Elective 3,E,Q1,,M,1615,1745,35,Fullonline
+,,3475,CSYSARC,Computer Architecture and Organization Lecture,E,Q1,"LLORENTE, CESAR ARANA",MW,1430,1600,35,Fullonline
+,,3474,CSYSARC,Computer Architecture and Organization Lecture,E,Q2,"LLORENTE, CESAR ARANA",TH,1430,1600,35,Fullonline
+,,253,CTMENTR,Entrrpreneurship for Engineers,E,H,"ONGPENG, JASON MAXIMINO CO",TH,1245,1415,25,Fullonline
+,,1795,DATAENG,Engineering Data Analysis,E,R1,,MW,1100,1230,40,Fullonline
+,,1667,DATCOMM,Data Communications,E,K,"CATALAN, JOSE ANTONIO MADERAL",MW,915,1045,35,Fullonline
+,,1254,DEANSYS ,Systems Analysis and Design,E,R1,,-,0,0,43,Fullonline
+,,255,DESCHE1,Process Equipment Design,E,A,"ONG, RENATO C.",T,1800,2000,45,Fullonline
+,,3539,DIGCOMT, COMS2: Modulation and Coding Techniques (1E),E,K,"ARADA, GERALD PACABA",TH,915,1045,35,Fullonline
+,,3538,DIGCOMT, COMS2: Modulation and Coding Techniques (1E),E,L,"ARADA, GERALD PACABA",MW,915,1045,35,Fullonline
+,,438,DISCSIM,System Simulation ,E,B,"SAN JUAN, JAYNE LOIS GO",H,1245,1345,40,Fullonline
+,,3324,DYCOPRO,Process Dynamics and Control,E,A1,,MW,1615,1745,30,Fullonline
+,,3325,DYCOPRO,Process Dynamics and Control,E,A2,,MW,1430,1600,30,Fullonline
+,,1699,ECOPRIN,Principles of Economics,E,B1,,MW,915,1045,34,Fullonline
+,,1698,ECOPRIN,Principles of Economics,E,B2,,MW,915,4045,34,Fullonline
+,,1697,ECOPRIN,Principles of Economics,E,C1,,MW,1100,1230,34,Fullonline
+,,1696,ECOPRIN,Principles of Economics,E,C2,,MW,1100,1230,34,Fullonline
+,,1695,ECOPRIN,Principles of Economics,E,D1,,TH,730,900,34,Fullonline
+,,1694,ECOPRIN,Principles of Economics,E,D2,,TH,915,1045,34,Fullonline
+,,858,ELECEN2,Circuits 2,E,K,,TH,915,1045,35,Fullonline
+,,857,ELECEN2,Circuits 2,E,L,,TH,1430,1600,35,Fullonline
+,,3095,ELECHE2,Chemical Engi'g Elective 2,E,A,,MW,1100,1230,45,Fullonline
+,,3512,ELECME2,Digital Electronics for ME,E,E,,TH,915,1015,43,
+,,3511,ELECME2,Digital Electronics for ME,E,F1,,MW,915,1015,43,
+,,3510,ELECME2,Digital Electronics for ME,E,F2,,TH,800,900,43,
+,,3099,EMAMECH,Engineering Management for ME,E,E1,,TH,1100,1200,40,Fullonline
+,,3100,EMAMECH,Engineering Management for ME,E,E2,,MW,1100,1200,40,Fullonline
+,,3101,EMAMECH,Engineering Management for ME,E,F,,TH,1245,1345,40,Fullonline
+,,3327,EMBDSYS,Embedded Systems Lecture,E,Q1,"LLORENTE, CESAR ARANA",MW,1615,1745,35,Fullonline
+,,3328,EMBDSYS,Embedded Systems Lecture,E,Q2,"LLORENTE, CESAR ARANA",TH,1615,1745,35,Fullonline
+,,,EMGMEC3,Mechanics and Deformable Bodies,E,I,,MW,915,1045,40,Fullonline
+,,3102,ENGBIO2,Biochemical Engineering,E,A,,TH,1430,1600,45,Fullonline
+,,501,ENGCHEM,Chemistry for Engineers,E,A1,"GARCIA, JOEL",MW,915,1045,43,Fullonline
+,,200,ENGCHEM,Chemistry for Engineers,E,A2,"GARCIA, EMMANUEL MONTINOLA",TH,915,1045,43,Fullonline
+,,499,ENGCHEM,Chemistry for Engineers,E,A3,"PUNZALAN, RAYMOND SAMSON",MW,730,900,43,Fullonline
+,,498,ENGCHEM,Chemistry for Engineers,E,H,"GARCIA, EMMANUEL MONTINOLA",TH,1100,1230,43,Fullonline
+,,497,ENGCHEM,Chemistry for Engineers,E,I,"PUNZALAN, ERIC CAMILO RUBIA",MW,1100,1230,43,Fullonline
+,,496,ENGCHEM,Chemistry for Engineers,E,J,"MACALINO, STEPHANI JOY YARCIA",MW,1430,1600,43,Fullonline
+,,495,ENGCHEM,Chemistry for Engineers,E,W,"MACALINO, STEPHANI JOY YARCIA",MW,1245,1415,43,Fullonline
+,,494,ENGCHEM,Chemistry for Engineers,E,V1,"PUNZALAN, ERIC CAMILO RUBIA",TH,1245,1415,43,Fullonline
+,,317,ENGCHEM,Chemistry for Engineers,E,V2,"GARCIA, JOEL",MW,1245,1415,43,Fullonline
+,,493,ENGCHEM,Chemistry for Engineers,E,E1,"MALABED, RAYMOND SAMSON",TH,1245,1415,43,Fullonline
+,,492,ENGCHEM,Chemistry for Engineers,E,E2,"LAGUA, FAITH MARIE GOLI",MW,1245,1415,43,Fullonline
+,,491,ENGCHEM,Chemistry for Engineers,E,F,"GARCIA, JOEL",TH,1430,1600,43,Fullonline
+,,342,ENGDAT1,Probability and Statistics for IE,E,R1,"GOBACO, BRYAN ONG",F,1800,2100,36,Fullonline
+,,818,ENGDAT2,Statistical Analysis for Industrial Engineering 2,E,B1,"ESMERIA, GISELLE JOY CURIO",MW,1100,1200,36,Fullonline
+,,817,ENGDAT2,Statistical Analysis for Industrial Engineering 2,E,B2,"ESMERIA, GISELLE JOY CURIO",MW,1430,1530,36,Fullonline
+,,816,ENGDAT2,Statistical Analysis for Industrial Engineering 2,E,C1,"ESMERIA, GISELLE JOY CURIO",MW,1615,1715,36,Fullonline
+,,815,ENGDAT2,Statistical Analysis for Industrial Engineering 2,E,C2,"SIY, ERIC ANG",TH,1245,1345,36,Fullonline
+,,3103,ENGDATA ,Engineering Data Analysis,E,Q1,"RAYCO, MARIA BRENDA ROA",MW,730,900,35,Fullonline
+,,3104,ENGDATA ,Engineering Data Analysis,E,Q2,"RAYCO, MARIA BRENDA ROA",TH,730,900,35,Fullonline
+,,1383,ENGENVI,Environmental Science and Engineering,E,A1,,TH,1100,1230,30,Fullonline
+,,1382,ENGENVI,Environmental Science and Engineering,E,A2,,TH,915,1045,30,Fullonline
+,,1381,ENGENVI,Environmental Science and Engineering,E,A3,,TH,1100,1230,30,Fullonline
+,,1380,ENGENVI,Environmental Science and Engineering,E,Q2,,MW,730,900,35,Fullonline
+,,1379,ENGENVI,Environmental Science and Engineering,E,Q1,,TH,730,900,35,Fullonline
+,,1378,ENGENVI,Environmental Science and Engineering,E,K1,,MW,915,1045,35,Fullonline
+,,1377,ENGENVI,Environmental Science and Engineering,E,K2,,TH,915,1045,35,Fullonline
+,,1447,ENGMEC1,Statics of Rid Bodies,E,G1,,MW,1245,1415,22,Fullonline
+,,1446,ENGMEC1,Statics of Rid Bodies,E,G2,,TH,1245,1415,22,Fullonline
+,,1445,ENGMEC1,Statics of Rid Bodies,E,G3,,MW,1615,1745,22,Fullonline
+,,3106,ENGMEC2,Dynamic of Rigid Bodies,E,E,,TH,800,900,43,
+,,3107,ENGMEC2,Dynamic of Rigid Bodies,E,F1,,MW,800,900,43,
+,,3108,ENGMEC2,Dynamic of Rigid Bodies,E,F2,,MW,915,1015,43,
+,,3109,ENGMEC2,Dynamics of rigids Bodies,E,H,"UY, ERICA ELICE SALOMA",MW,915,1015,40,Fullonline
+,,3110,ENGMEC2,Dynamics of rigids Bodies,E,I,"ANONGPHOUTH, IRENE OLIVIA UBAY",TH,915,1015,40,Fullonline
+,,3111,ENGMEC2,Dynamics of rigids Bodies,E,J,"ABAD, RAYMUND PAOLO BILO",TH,1245,1345,40,Fullonline
+,,3112,ENGMEC2,Dynamics of rigids Bodies,E,W,"ABAD, RAYMUND PAOLO BILO",TH,915,1015,40,Fullonline
+,,3113,ENGMEC3,Mechanics and Deformable Bodies,E,H,"ORETA, ANDRES WINSTON CORONEL",MW,1100,1230,40,Fullonline
+,,2707,ENGMEC3,Mechanics and Deformable Bodies,E,I,"ADAJAR, MARY ANN QUINTANA",MW,915,1045,43,Fullonline
+,,3114,ENGMEC3,Mechanics and Deformable Bodies,E,J,"ORETA, ANDRES WINSTON CORONEL",TH,1100,1230,40,Fullonline
+,,3116,ENGMEC3,Mechanics and Deformable Bodies,E,W,"ADAJAR, MARY ANN QUINTANA",MW,1245,1415,25,Fullonline
+,,3115,ENGMEC3,Mechanics and Deformable Bodies,E,V,"ORETA, ANDRES WINSTON CORONEL",MW,1245,1415,25,Fullonline
+,,888,ENGMECH,Engineering Mechanics for IE,E,B1,,TH,1245,1415,36,Fullonline
+,,887,ENGMECH,Engineering Mechanics for IE,E,B2,,TH,1245,1415,36,Fullonline
+,,886,ENGMECH,Engineering Mechanics for IE,E,C1,,MW,1615,1745,36,Fullonline
+,,885,ENGMECH,Engineering Mechanics for IE,E,C2,,MW,1615,1745,36,Fullonline
+,,774,ENGPHYS,Physics Fundamentals foe Engineering Majors ,E,R1,,TH,1615,1745,35,Fullonline
+,,3444,ENGTREP,Technopreneurship,E,G1,,TH,915,1045,15,Fullonline
+,,3289,ENGTREP,Technopreneurship,E,G2,,MW,1430,1600,15,Fullonline
+,,3445,ENGTREP,Technopreneurship,E,G3,,TH,1615,1715,15,Fullonline
+,,3446,ENGTREP,Technopreneurship,E,G4,,TH,1245,1415,15,Fullonline
+,,3119,ERG1LEC,Special Topics in Industrial Eng'g 1,E,B,"TANGSOC, JAZMIN CHONG",TH,915,1045,25,Fullonline
+,,3481,FEECONS,Feedback and Control Systems (1E),E,K,"MAGSINO, ELMER RAMILO",TH,1430,1600,35,Fullonline
+,,3480,FEECONS,Feedback and Control Systems (1E),E,L,"MAGSINO, ELMER RAMILO",MW,1430,1600,35,Fullonline
+,,843,FLUMMRE,Fluids Mechanics for MRE,E,G1,,TH,1100,1230,25,Fullonline
+,,1721,FNDMATH,Foundation Course in Mathematics,E,R1,,MW,1430,1700,25,Fullonline
+,,1720,FNDMATH,Engineering Data Analysis,E,R2,,MW,1430,1700,25,Fullonline
+,,859,FNDSTAT,Foundation Statistics,E,R1,"RAYCO, MARIA BRENDA ROA",MW,915,1045,40,Fullonline
+,,641,FOUNDEN,Foundation Engineering,E,H,"SISON, FREDERICK FRANCIS MARAAN",MW,915,1015,35,Fullonline
+,,640,FOUNDEN,Foundation Engineering,E,I,"SISON, FREDERICK FRANCIS MARAAN",MW,800,900,35,Fullonline
+,,1566,FUNDLEC,Fundamentals of Electronics Circuits Lecture,E,Q1,"ABUAN, DONABEL DE VEAS",TH,1245,1415,35,Fullonline
+,,309,FUNDLEC,Fundamentals of Electronics Circuits Lecture,E,Q2,"ABUAN, DONABEL DE VEAS",MW,1245,1415,35,Fullonline
+,,1565,FUNDLEC,Fundamentals of Electronics Circuits Lecture,E,Q3,"ABUAN, DONABEL DE VEAS",MW,1800,1930,35,Fullonline
+,,1564,FUNDLEC,Fundamentals of Electronics Circuits Lecture,E,Q4,"ABUAN, DONABEL DE VEAS",TH,1800,1930,35,Fullonline
+,,1293,GREENPR,Cleaner Production,E,B,"CHIU, SHUN FUNG",MW,915,1045,40,Fullonline
+,,3302,HEATCHE,Transport Phenomena 2: Heat Transfer,E,A1,,MW,1430,1530,35,Fullonline
+,,3303,HEATCHE,Transport Phenomena 2: Heat Transfer,E,A2,,MW,1615,1715,35,Fullonline
+,,3049,HWRFIDE,"Flood Control, Irriagtion & Drainage Eng'g.",E,I,"REDILLAS, MARLA MANIQUIZ",TH,915,1045,25,Fullonline
+,,1576,ICDESIG,HDL Modeling and IC Design Lecture,E,K,"YAP, RODERICK YAO",TH,1245,1345,35,Fullonline
+,,3050,IEFINMT ,Financial Management fro IES,E,R1,"NICDAO, DERRICK JIMENEZ",S,1300,1700,40,Fullonline
+,,3287,IEMERES,Methods of Research for IE,E,B,"GUITERREZ, ALMA MARIA JENNIFER AREOPAGITA",TH,1100,1230,25,Fullonline
+,,3343,IEMERES,Methods of Research for IE,E,C1,"GUITERREZ, ALMA MARIA JENNIFER AREOPAGITA",TH,1430,1600,25,Fullonline
+,,3344,IEMERES,Methods of Research for IE,E,C2,"GUITERREZ, ALMA MARIA JENNIFER AREOPAGITA",TH,1615,1745,25,Fullonline
+,,1821,IEOPER1,Operations Research 1,E,R1,"RAYCO, MARIA BRENDA ROA",TH,915,1045,40,Fullonline
+,,1591,IEOPER2,Operations Research 2,E,R1,"ILAGAN, IAN FREDERIC ANDAYA",MW,1800,1930,20,Fullonline
+,,4187,IEOPER3,Operations Research 3,E,B,"LI, RICHARD CHUA",MW,1430,1600,25,Fullonline
+,,4188,IEOPER3,Operations Research 3,E,C1,"LI, RICHARD CHUA",MW,1615,1745,25,Fullonline
+,,4189,IEOPER3,Operations Research 3,E,C2,"LI, RICHARD CHUA",MW,1945,2115,25,Fullonline
+,,2704,IETHERM,Basic Engineering Thermodynamics for IE,E,B1,,TH,915,1045,35,Fullonline
+,,3051,IETHERM,Basic Engineering Thermodynamics for IE,E,B2,,TH,915,1045,35,Fullonline
+,,3052,IETHERM,Basic Engineering Thermodynamics for IE,E,C1,,TH,1100,1230,35,Fullonline
+,,3053,IETHERM,Basic Engineering Thermodynamics for IE,E,C2,,TH,1100,1230,35,Fullonline
+,,3054,IETHERM,Basic Engineering Thermodynamics for IE,E,D1,,MW,1100,1230,35,Fullonline
+,,3055,IETHERM,Basic Engineering Thermodynamics for IE,E,D2,,MW,915,1045,35,Fullonline
+,,3056,INDUMAT,Advanced Mathematics for Industrial Engineering,E,B1,,MW,1245,1415,36,Fullonline
+,,3057,INDUMAT,Advanced Mathematics for Industrial Engineering,E,B2,"ESMERIA, GISELLE JOY CURIO",MW,1245,1415,36,Fullonline
+,,3058,INDUMAT,Advanced Mathematics for Industrial Engineering,E,C1,,MW,1430,1600,36,Fullonline
+,,3059,INDUMAT,Advanced Mathematics for Industrial Engineering,E,C2,,MW,1800,1930,36,Fullonline
+,,3060,INDUORG,Industrial Organization and Management,E,R1,"ONG, KARL BENEDICT NGO",TH,1800,1930,25,Fullonline
+,,3345,INFORSY,Information Systems ,E,B,"POLANCOS, RONALDO VILLENA",MW,730,830,25,Fullonline
+,,3346,INFORSY,Information Systems ,E,C1,"POLANCOS, RONALDO VILLENA",TH,730,830,25,Fullonline
+,,3347,INFORSY,Information Systems ,E,C2,"TAKAMOTO, MASANORI ADORA",H,1800,2000,25,Fullonline
+,,3061,INMANAC,Managerial Accounting for IE Majors,E,B1,,MW,800,1000,34,Fullonline
+,,3062,INMANAC,Managerial Accounting for IE Majors,E,B2,,MW,800,1000,34,Fullonline
+,,3063,INMANAC,Managerial Accounting for IE Majors,E,C1,,MW,1100,1300,34,Fullonline
+,,3064,INMANAC,Managerial Accounting for IE Majors,E,C2,,MW,1100,1300,34,Fullonline
+,,3065,INMANAC,Managerial Accounting for IE Majors,E,D1,,TH,1100,1300,34,Fullonline
+,,3066,INMANAC,Managerial Accounting for IE Majors,E,D2,,TH,1100,1300,34,Fullonline
+,,590,IPERSEF,Integrating Course on Personal Effectiveness,E,H,"EUSEBIO, MA. CRISTINA STA. CRUZ",17-Apr,900,1200,43,Fullonline
+,,589,IPERSEF,Integrating Course on Personal Effectiveness,E,I,"EUSEBIO, MA. CRISTINA STA. CRUZ",17-Apr,900,1200,43,Fullonline
+,,2031,KASPIL1,"Buhay, Nagawa at Sinulat ni Dr. Jose rizal",E,E,"DELA CRUZ, ARLEIGH ROSS DY",TH,1615,1745,43,Fullonline
+,,2032,KASPIL2,Kasaysayan ng Pilipinas,E,G1,"JIMENEZ, JOSE VICTOR DECENA",MW,1245,1415,43,Fullonline
+,,955,LASARE3,Lasallian Recolection 3,E,B,"MIRANDA, GODORICO VIVAS",,0,0,33,Fullonline
+,,956,LASARE3,Lasallian Recolection 3,E,C,"MIRANDA, GODORICO VIVAS",,0,0,33,Fullonline
+,,954,LASARE3,Lasallian Recolection 3,E,G,"MIRANDA, GODORICO VIVAS",,0,0,33,Fullonline
+,,3503,LAWSECE,ECE Laws and Ethics,E,K,"DULAY, ANN ESTOLANO",MW,730,900,35,Fullonline
+,,3502,LAWSECE,ECE Laws and Ethics,E,L,"DULAY, ANN ESTOLANO",TH,730,900,35,Fullonline
+,,2820,LBYCH1A,Chemistry for Engineers Laboratory,E,A1,"SY, JAMIE BERNADETTE ANG",M,730,1030,45,Fullonline
+,,2712,LBYCH1A,Chemistry for Engineers Laboratory,E,B1,"SY, JAMIE BERNADETTE ANG",T,730,1030,45,Fullonline
+,,,LBYCH1A,Chemistry for Engineers Laboratory,E,C1,,W,730,1030,45,Fullonline
+,,298,LBYCH1A,Chemistry for Engineers Laboratory,E,D1,"PUNZALAN, JERVEE MALABANAN",H,730,1030,45,Fullonline
+,,983,LBYCH1A,Chemistry for Engineers Laboratory,E,E1,"CRUZ, FATIMA JOY CONSUL",F,730,1030,45,Fullonline
+,,991,LBYCH1A,Chemistry for Engineers Laboratory,E,F1,"SY, JAMIE BERNADETTE ANG",F,730,1030,45,Fullonline
+,,989,LBYCH1A,Chemistry for Engineers Laboratory,E,H1,"SY, JAMIE BERNADETTE ANG",W,730,1030,45,Fullonline
+,,988,LBYCH1A,Chemistry for Engineers Laboratory,E,E2,"SALIK, SITTIE ZULEIHA DE SAHAGUN",F,1100,1400,45,Fullonline
+,,984,LBYCH1A,Chemistry for Engineers Laboratory,E,A2,"PASTOR, CRIST JOHN MEJIA",M,1430,1730,45,Fullonline
+,,985,LBYCH1A,Chemistry for Engineers Laboratory,E,B2,"PASTOR, CRIST JOHN MEJIA",T,1430,1730,45,Fullonline
+,,986,LBYCH1A,Chemistry for Engineers Laboratory,E,C2,"CRUZ, FATIMA JOY CONSUL",W,1430,1730,45,Fullonline
+,,987,LBYCH1A,Chemistry for Engineers Laboratory,E,D2,"SALIK, SITTIE ZULEIHA DE SAHAGUN",H,1430,1730,45,Fullonline
+,,990,LBYCH1A,Chemistry for Engineers Laboratory,E,H2,"SALIK, SITTIE ZULEIHA DE SAHAGUN",T,1430,1730,45,Fullonline
+,,2824,LBYCH2A,Physical Principles 1 Laboratory,E,A1,,T,1430,1730,20,Fullonline
+,,2825,LBYCH2A,Physical Principles 1 Laboratory,E,A2,,H,1430,1730,20,Fullonline
+,,2826,LBYCH2A,Physical Principles 1 Laboratory,E,A3,,T,1430,1730,20,Fullonline
+,,2827,LBYCH2A,Physical Principles 1 Laboratory,E,A4,,H,1430,1730,20,Fullonline
+,,2828,LBYCH2B,Chemical Process Industries Laboratory,E,A1,,H,1430,1730,20,Fullonline
+,,2829,LBYCH2B,Chemical Process Industries Laboratory,E,A2,,T,1430,1730,20,Fullonline
+,,2830,LBYCH2B,Chemical Process Industries Laboratory,E,A3,,H,1430,1730,20,Fullonline
+,,2831,LBYCH2B,Chemical Process Industries Laboratory,E,A4,,T,1430,1730,20,Fullonline
+,,3516,LBYCH3A,Solution Thermodynamics Laboratory,E,A1,,M,730,1030,25,Fullonline
+,,3515,LBYCH3A,Solution Thermodynamics Laboratory,E,A2,,T,730,1030,25,Fullonline
+,,3514,LBYCH3A,Solution Thermodynamics Laboratory,E,A3,,W,730,1030,25,Fullonline
+,,3513,LBYCH3A,Solution Thermodynamics Laboratory,E,A4,,H,730,1030,25,Fullonline
+,,880,LBYCHEE,Unit Operations Laboratory 1,E,A,"CHOI, ANGELO EARVIN SY",M,1430,1730,25,Fullonline
+,,839,LBYCHEK,Process Instrumentation abd Control Laboratory,E,A,"BERNARDO, GIAN PAOLO OBLIGACION",W,1430,1730,25,Fullonline
+,,1354,LBYCP2E,Operating Systems Laboratory,E,Q1,,M,915,1215,20,Fullonline
+,,802,LBYCP30,Computer Systems Analysis and Design Laboratory,E,Q1,,T,915,1215,20,Fullonline
+,,2832,LBYCPA1,Programming Logic and Desig Laboratory,E,Q1,,MW,1100,1400,20,Fullonline
+,,2833,LBYCPA1,Programming Logic and Desig Laboratory,E,Q2,,TH,1100,1400,20,Fullonline
+,,2834,LBYCPA1,Programming Logic and Desig Laboratory,E,Q3,,MW,1100,1400,20,Fullonline
+,,2835,LBYCPA1,Programming Logic and Desig Laboratory,E,Q4,,TH,1100,1400,20,Fullonline
+,,645,LBYCPC2,Feedback and Control systems Laboratory,E,Q1,"ROQUE, MARIA ANTONETTE CAMACHO",T,1430,1730,20,Fullonline
+,,644,LBYCPC2,Feedback and Control systems Laboratory,E,Q2,"ROQUE, MARIA ANTONETTE CAMACHO",H,1430,1730,20,Fullonline
+,,643,LBYCPC2,Feedback and Control systems Laboratory,E,Q3,"ROQUE, MARIA ANTONETTE CAMACHO",H,1430,1730,20,Fullonline
+,,642,LBYCPC2,Feedback and Control systems Laboratory,E,Q4,"ROQUE, MARIA ANTONETTE CAMACHO",F,730,1030,20,Fullonline
+,,2836,LBYCPD2,Sofware Design Laboratory,E,Q1,"LIGUTAN, DINO DOMINIC FORTE",M,1430,1730,20,Fullonline
+,,2837,LBYCPD2,Sofware Design Laboratory,E,Q2,"LIGUTAN, DINO DOMINIC FORTE",T,1430,1730,20,Fullonline
+,,2838,LBYCPD2,Sofware Design Laboratory,E,Q3,"LIGUTAN, DINO DOMINIC FORTE",W,1430,1730,20,Fullonline
+,,3478,LBYCPD3,Computer Architecture and Organization Laboratory,E,Q1,"LIGUTAN, DINO DOMINIC FORTE",T,915,1215,20,Fullonline
+,,3477,LBYCPD3,Computer Architecture and Organization Laboratory,E,Q2,"LIGUTAN, DINO DOMINIC FORTE",M,915,1215,20,Fullonline
+,,3476,LBYCPD3,Computer Architecture and Organization Laboratory,E,Q3,"LIGUTAN, DINO DOMINIC FORTE",W,915,1215,20,Fullonline
+,,3348,LBYCPF3,CpE Elective 1 Laboratory,E,Q1,"BANDALA, ARGEL ALEJANDRO",M,915,1215,20,Fullonline
+,,3349,LBYCPF3,CpE Elective 1 Laboratory,E,Q2,"BANDALA, ARGEL ALEJANDRO",T,915,1215,20,Fullonline
+,,3350,LBYCPF3,CpE Elective 1 Laboratory,E,Q3,"BANDALA, ARGEL ALEJANDRO",W,915,1215,20,Fullonline
+,,3351,LBYCPG3,Online Technologies Laboratory,E,Q1,,W,915,1215,20,Fullonline
+,,3352,LBYCPG3,Online Technologies Laboratory,E,Q2,,H,915,1215,20,Fullonline
+,,3353,LBYCPG3,Online Technologies Laboratory,E,Q3,,T,915,1215,20,Fullonline
+,,1776,LBYCPL3,Computer Engineering Elective 3 Laboratory,E,Q1,,W,915,1215,20,Fullonline
+,,3499,LBYCPM3,Embedded Systems Laboratory,E,Q1,"DUPO, VOLTAIRE BERNARDO",H,915,1215,20,Fullonline
+,,3500,LBYCPM3,Embedded Systems Laboratory,E,Q2,"DUPO, VOLTAIRE BERNARDO",W,915,1215,20,Fullonline
+,,3290,LBYCPM3,Embedded Systems Laboratory,E,Q3,"DUPO, VOLTAIRE BERNARDO",T,915,1215,20,Fullonline
+,,1537,LBYCV2C,Cenumer Laboratory,E,H1,"CUTORA, MILLER DE LEON",T,1430,1730,20,Fullonline
+,,1536,LBYCV2C,Cenumer Laboratory,E,H2,"VALERIO, DANIEL NICHOL REYES",H,1430,1730,20,Fullonline
+,,1535,LBYCV2C,Cenumer Laboratory,E,I1,"VALERIO, DANIEL NICHOL REYES",M,1430,1730,20,Fullonline
+,,1534,LBYCV2C,Cenumer Laboratory,E,I2,"CUTORA, MILLER DE LEON",W,1430,1730,20,Fullonline
+,,1533,LBYCV2C,Cenumer Laboratory,E,J1,"VALERIO, DANIEL NICHOL REYES",M,730,1030,20,Fullonline
+,,1532,LBYCV2C,Cenumer Laboratory,E,J2,"VALERIO, DANIEL NICHOL REYES",W,730,1030,20,Fullonline
+,,1531,LBYCV2C,Cenumer Laboratory,E,W,"CUTORA, MILLER DE LEON",M,1100,1400,20,Fullonline
+,,,LBYCV3A,Geotechnical Engineering Laboratory,E,H1,,H,1430,1730,20,Fullonline
+,,,LBYCV3A,Geotechnical Engineering Laboratory,E,H2,,T,1430,1730,20,Fullonline
+,,,LBYCV3A,Geotechnical Engineering Laboratory,E,I1,,W,1430,1730,20,Fullonline
+,,,LBYCV3A,Geotechnical Engineering Laboratory,E,I2,,M,1430,1730,20,Fullonline
+,,,LBYCV3A,Geotechnical Engineering Laboratory,E,J1,,W,730,1030,20,Fullonline
+,,,LBYCV3A,Geotechnical Engineering Laboratory,E,J2,,M,730,1030,20,Fullonline
+,,,LBYCV3A,Geotechnical Engineering Laboratory,E,W,,W,1100,1400,20,Fullonline
+,,3354,LBYCV3C,Building Ssytem Design 1 Laboratory,E,H1,"TORAL, KENNETH ROI PATAWARAN",M,730,1030,20,Fullonline
+,,3355,LBYCV3C,Building Ssytem Design 1 Laboratory,E,H2,"TORAL, KENNETH ROI PATAWARAN",W,730,1030,20,Fullonline
+,,3356,LBYCV3C,Building Ssytem Design 1 Laboratory,E,I1,"ROXAS, CHERYL LYNE CAPIZ",M,1430,1730,20,Fullonline
+,,3357,LBYCV3C,Building Ssytem Design 1 Laboratory,E,I2,"ROXAS, CHERYL LYNE CAPIZ",W,1430,1730,20,Fullonline
+,,3358,LBYCV3C,Building Ssytem Design 1 Laboratory,E,J1,"MARTINEZ, MA. KLARISSA GLORIOSO",T,730,1030,20,Fullonline
+,,3359,LBYCV3C,Building Ssytem Design 1 Laboratory,E,J2,"MARTINEZ, MA. KLARISSA GLORIOSO",H,730,1030,20,Fullonline
+,,3489,LBYCV3D,"Principles of Reinforced Concreate, Laboratory",E,H1,"LEJANO, BERNARDO ABREU",W,730,1030,20,Fullonline
+,,3488,LBYCV3D,"Principles of Reinforced Concreate, Laboratory",E,H2,"DE JESUS, RICHARD MORTEL",M,730,1030,20,Fullonline
+,,3487,LBYCV3D,"Principles of Reinforced Concreate, Laboratory",E,I1,"TORAL, KENNETH ROI PATAWARAN",M,1800,2100,20,Fullonline
+,,3486,LBYCV3D,"Principles of Reinforced Concreate, Laboratory",E,I2,"TORAL, KENNETH ROI PATAWARAN",M,1430,1730,20,Fullonline
+,,3485,LBYCV3D,"Principles of Reinforced Concreate, Laboratory",E,J1,"LEJANO, BERNARDO ABREU",T,1430,1730,20,Fullonline
+,,3484,LBYCV3D,"Principles of Reinforced Concreate, Laboratory",E,J2,"LEJANO, BERNARDO ABREU",H,1430,1730,20,Fullonline
+,,3524,LBYCV3E,Transfortation Engineering Laboratory,E,H1,"ROQUEL, KRISTER IAN DANIEL ZAFRA",M,1430,1730,20,Fullonline
+,,3523,LBYCV3E,Transfortation Engineering Laboratory,E,H2,"ROQUEL, KRISTER IAN DANIEL ZAFRA",W,1430,1730,20,Fullonline
+,,3522,LBYCV3E,Transfortation Engineering Laboratory,E,I1,"ROXAS, NICANOR RODRIGUEZ",W,730,830,20,Fullonline
+,,3521,LBYCV3E,Transfortation Engineering Laboratory,E,I2,"ROXAS, NICANOR RODRIGUEZ",M,730,1030,20,Fullonline
+,,3520,LBYCV3E,Transfortation Engineering Laboratory,E,J1,"ROXAS, NICANOR RODRIGUEZ",H,730,1030,20,Fullonline
+,,3519,LBYCV3E,Transfortation Engineering Laboratory,E,J2,"ROXAS, NICANOR RODRIGUEZ",T,730,1030,20,Fullonline
+,,4109,LBYCVD2,Structural Design 2 Laboratory,E,H1,"DE JESUS, RICHARD MORTEL",T,730,1030,23,Fullonline
+,,4110,LBYCVD2,Structural Design 2 Laboratory,E,H2,"DE JESUS, RICHARD MORTEL",H,730,1030,23,Fullonline
+,,4111,LBYCVD2,Structural Design 2 Laboratory,E,I,"DE JESUS, RICHARD MORTEL",T,1430,1730,23,Fullonline
+,,1443,LBYCVR1,Transportation Engineering Laboratory,E,H1,"ROQUEL, KRISTER IAN DANIEL ZAFRA",T,730,1030,25,Fullonline
+,,1442,LBYCVR1,Transportation Engineering Laboratory,E,H2,"ROQUEL, KRISTER IAN DANIEL ZAFRA",H,730,1030,25,Fullonline
+,,1441,LBYCVR1,Transportation Engineering Laboratory,E,I,"ROQUEL, KRISTER IAN DANIEL ZAFRA",H,1430,1730,25,Fullonline
+,,393,LBYCVT4,Structural Design of  Building,E,J,"ABINALES, ADAM CRUZ",T,1800,2100,25,Fullonline
+,,2849,LBYEC2A,Computer Fundamentals and Programming 1,E,E1,,T,730,1030,19,Fullonline
+,,2928,LBYEC2A,Computer Fundamentals and Programming 1,E,E2,,H,730,1030,19,Fullonline
+,,2850,LBYEC2A,Computer Fundamentals and Programming 1,E,E3,,M,730,1030,19,Fullonline
+,,2851,LBYEC2A,Computer Fundamentals and Programming 1,E,F1,,W,730,1030,19,Fullonline
+,,2852,LBYEC2A,Computer Fundamentals and Programming 1,E,F2,,T,730,1030,19,Fullonline
+,,2853,LBYEC2A,Computer Fundamentals and Programming 1,E,F3,,H,730,1030,19,Fullonline
+,,2854,LBYEC2A,Computer Fundamentals and Programming 1,E,Q1,,T,1100,1400,19,Fullonline
+,,2855,LBYEC2A,Computer Fundamentals and Programming 1,E,Q2,,M,1100,1400,19,Fullonline
+,,2856,LBYEC2A,Computer Fundamentals and Programming 1,E,Q3,,T,1100,1400,19,Fullonline
+,,3857,LBYEC2A,Computer Fundamentals and Programming 1,E,Q4,,M,1100,1400,19,Fullonline
+,,2858,LBYEC2A,Computer Fundamentals and Programming 1,E,G1,,M,1430,1730,19,Fullonline
+,,2859,LBYEC2A,Computer Fundamentals and Programming 1,E,G2,,W,1430,1730,19,Fullonline
+,,3860,LBYEC2A,Computer Fundamentals and Programming 1,E,G3,,T,1430,1730,19,Fullonline
+,,2861,LBYEC2A,Computer Fundamentals and Programming 1,E,G4,,H,1430,1730,19,Fullonline
+,,275,LBYEC2A,Computer Fundamentals and Programming 1,E,G5,,M,1430,1730,19,Fullonline
+,,2862,LBYEC2A,Computer Fundamentals and Programming 1,E,K1,,H,1100,1400,19,Fullonline
+,,2863,LBYEC2A,Computer Fundamentals and Programming 1,E,K2,,H,1100,1400,19,Fullonline
+,,2864,LBYEC2A,Computer Fundamentals and Programming 1,E,L1,,W,1100,1400,19,Fullonline
+,,2865,LBYEC2B,Computer Fundamentals Programming 2,E,B1,,M ,730,1030,23,Fullonline
+,,2866,LBYEC2B,Computer Fundamentals Programming 2,E,B2,,W,730,1030,23,Fullonline
+,,2867,LBYEC2B,Computer Fundamentals Programming 2,E,C1,,T,730,1030,23,Fullonline
+,,2868,LBYEC2B,Computer Fundamentals Programming 2,E,C3,,T,1430,1730,23,Fullonline
+,,2869,LBYEC2B,Computer Fundamentals Programming 2,E,C2,,H,730,1030,23,Fullonline
+,,2870,LBYEC2B,Computer Fundamentals and Programming 2 (1D),E,K1,"CATALAN, JOSE ANTONIO MADERAL",F,1100,1400,20,Fullonline
+,,2871,LBYEC2B,Computer Fundamentals and Programming 2 (1D),E,K2,"CATALAN, JOSE ANTONIO MADERAL",T,730,1030,20,Fullonline
+,,2872,LBYEC2B,Computer Fundamentals and Programming 2 (1D),E,L1,,F,730,1030,20,Fullonline
+,,2873,LBYEC2B,Computer Fundamentals and Programming 2 (1D),E,L2,"GRAZA, MARVIL V.",F,915,1215,20,Fullonline
+,,2874,LBYEC2F,Circuits 2 Laboratory ,E,K1,"CATALAN, JOSE ANTONIO MADERAL",W,1100,1400,20,Fullonline
+,,2875,LBYEC2F,Circuits 2 Laboratory ,E,K2,"CATALAN, JOSE ANTONIO MADERAL",F,730,1030,20,Fullonline
+,,2876,LBYEC2F,Circuits 2 Laboratory ,E,L,"ROQUE, MARIA ANTONETTE CAMACHO",H,915,1215,20,Fullonline
+,,337,LBYEC2G,Electronics Devices  and Circuits Laboratory,E,K1,"ROQUE, MARIA ANTONETTE CAMACHO",M,1430,1730,20,Fullonline
+,,336,LBYEC2G,Electronics Devices  and Circuits Laboratory,E,K2,"BUCAO, BLANCA ITORALBA",T,1430,1730,20,Fullonline
+,,335,LBYEC2G,Electronics Devices  and Circuits Laboratory,E,L,"BUCAO, BLANCA ITORALBA",F,1100,1400,20,Fullonline
+,,2877,LBYEC2H,Advanced Engineering Mathematics for ECE Laboratory,E,K1,"SYBINGCO, EDWIN",H,1430,1730,20,Fullonline
+,,2878,LBYEC2H,Advanced Engineering Mathematics for ECE Laboratory,E,K2,"SYBINGCO, EDWIN",W,1430,1730,20,Fullonline
+,,2203,LBYEC2L,Basic Electrical Engineering Principle Laboratory fro MEM,E,G1,,M,915,1215,22,Fullonline
+,,2202,LBYEC2L,Basic Electrical Engineering Principle Laboratory fro MEM,E,G2,,W,915,1215,22,Fullonline
+,,2201,LBYEC2L,Basic Electrical Engineering Principle Laboratory fro MEM,E,G3,,T,915,1215,22,Fullonline
+,,2200,LBYEC2L,Basic Electrical Engineering Principle Laboratory fro MEM,E,G4,,H,915,1215,22,Fullonline
+,,2879,LBYEC2N,DC and AC Machinery Laboratory,E,E1,,M,1430,1730,,
+,,2880,LBYEC2N,DC and AC Machinery Laboratory,E,E2,,W,1430,1730,,
+,,2881,LBYEC2N,DC and AC Machinery Laboratory,E,F1,,T,1430,1730,,
+,,2882,LBYEC2N,DC and AC Machinery Laboratory,E,F2,,H,1430,1730,,
+,,2883,LBYEC2N,DC and AC Machinery Laboratory,E,F3,,F,1100,1400,,
+,,2884,LBYEC3B,Intelligent Systems for Engineering for MEM,E,G1,,W,915,1215,15,Fullonline
+,,2885,LBYEC3B,Intelligent Systems for Engineering for MEM,E,G2,,M,915,1215,15,Fullonline
+,,2886,LBYEC3B,Intelligent Systems for Engineering for MEM,E,G3,,H,915,1215,15,Fullonline
+,,2887,LBYEC3B,Intelligent Systems for Engineering for MEM,E,G4,,T,915,1215,15,Fullonline
+,,2888,LBYEC3B,Intelligent Systems for Engineering for MEM,E,G5,,F,745,1045,15,Fullonline
+,,3483,LBYEC3E,Modulation and Coding Techniques Laboratory  (1E),E,K1,"ALIPIO, MELCHIZEDEEK IBARRIENTOS",M,1430,1730,20,Fullonline
+,,3482,LBYEC3E,Modulation and Coding Techniques Laboratory  (1E),E,K2,"ALIPIO, MELCHIZEDEEK IBARRIENTOS",T,1430,1730,20,Fullonline
+,,3360,LBYEC3F,Feedback and Control Systems Laboratory (1E),E,K1,"AFRICA, AARON DON MUNSAYAC",W,1430,1730,20,Fullonline
+,,3361,LBYEC3F,Feedback and Control Systems Laboratory (1E),E,K2,"AFRICA, AARON DON MUNSAYAC",H,1430,1730,35,Fullonline
+,,621,LBYEC3Q,Digital Electronics for ME Laboratory,E,E1,,M,1430,1730,23,
+,,620,LBYEC3Q,Digital Electronics for ME Laboratory,E,E2,,T,1430,1730,23,
+,,617,LBYEC3Q,Digital Electronics for ME Laboratory,E,F1,,W,1430,1730,23,
+,,618,LBYEC3Q,Digital Electronics for ME Laboratory,E,F3,,H,1430,1730,23,
+,,619,LBYEC3Q,Digital Electronics for ME Laboratory,E,F2,,T,915,1215,23,
+,,2889,LBYEC56,Computer Applications Laboratory,E,K,,M,1430,1730,20,Fullonline
+,,545,LBYEC57,Data Communications Laboratory,E,K,"CATALAN, JOSE ANTONIO MADERAL",T,1430,1730,20,Fullonline
+,,2890,LBYEC58,Wireless Communications Laboratory,E,K,,H,1430,1730,20,Fullonline
+,,2891,LBYEC61,HDL Modeling and IC Design Laboratory,E,K,"YAP, RODERICK YAO",W,1430,1730,20,Fullonline
+,,867,LBYIE2B,CATIA for IE,E,B1,,M,1430,1730,25,Fullonline
+,,866,LBYIE2B,CATIA for IE,E,B2,,M,1430,1730,25,Fullonline
+,,324,LBYIE2B,CATIA for IE,E,C1,,T,1430,1730,25,Fullonline
+,,865,LBYIE2B,CATIA for IE,E,C2,,T,1430,1730,25,Fullonline
+,,864,LBYIE2B,CATIA for IE,E,D1,,W,1430,1730,25,Fullonline
+,,863,LBYIE2B,CATIA for IE,E,D2,,W,1430,1730,25,Fullonline
+,,862,LBYIE2B,CATIA for IE,E,C3,,H,1430,1730,25,Fullonline
+,,861,LBYIE2B,CATIA for IE,E,D3,,H,1430,1730,25,Fullonline
+,,1548,LBYIE2C,Advanced Quantitative Methods and Laboratory,E,B1,"SIY, ERIC ANG",M,915,1215,25,Fullonline
+,,1547,LBYIE2C,Advanced Quantitative Methods and Laboratory,E,B2,"SIY, ERIC ANG",W,915,1215,25,Fullonline
+,,1546,LBYIE2C,Advanced Quantitative Methods and Laboratory,E,C1,"SIY, ERIC ANG",T,915,1215,25,Fullonline
+,,1545,LBYIE2C,Advanced Quantitative Methods and Laboratory,E,C2,"SIY, ERIC ANG",H,915,1215,25,Fullonline
+,,1544,LBYIE2C,Advanced Quantitative Methods and Laboratory,E,C3,"SIY, ERIC ANG",H,1430,1730,25,Fullonline
+,,2899,LBYIE3A,Work Study and Measurement Laboratory,E,R1,"BAUTISTA, JOY MARI SEBASTIAN",S,900,1200,25,Fullonline
+,,1393,LBYIE3C,Cognitive Ergonomics Laboratory,E,R1,"MADRIA, WIRA FRIAS",M,1800,2100,25,Fullonline
+,,,LBYIE3C,DISSOLVED,E,R2,,H ,915,1215,25,Fullonline
+,,4190,LBYIE3D,Operations Research Lab,E,B1,"SAN JUAN, JAYNE LOIS GO",M ,915,1215,20,Fullonline
+,,4191,LBYIE3D,Operations Research Lab,E,B2,"SAN JUAN, JAYNE LOIS GO",W,915,1215,20,Fullonline
+,,4192,LBYIE3D,Operations Research Lab,E,C1,"SAN JUAN, JAYNE LOIS GO",T ,915,1215,20,Fullonline
+,,4193,LBYIE3D,Operations Research Lab,E,C2,"SAN JUAN, JAYNE LOIS GO",H,915,1215,20,Fullonline
+,,3508,LBYIE3F,Information Systems Lab,E,B1,"POLANCOS, RONALDO VILLENA",M ,915,1215,20,Fullonline
+,,3507,LBYIE3F,Information Systems Lab,E,B2,"POLANCOS, RONALDO VILLENA",W,915,1215,20,Fullonline
+,,3506,LBYIE3F,Information Systems Lab,E,C1,"POLANCOS, RONALDO VILLENA",T ,915,1215,20,Fullonline
+,,3505,LBYIE3F,Information Systems Lab,E,C2,"POLANCOS, RONALDO VILLENA",H,915,1215,20,Fullonline
+,,2900,LBYIEED,Systems Analysis and Design Laboratory,E,R1,,F,1800,2100,18,Fullonline
+,,2901,LBYIEEG,System Simulation Laboratory,E,B,"MADRIA, WIRA FRIAS",H,1800,2100,20,Fullonline
+,,2902,LBYIEEG,System Simulation Laboratory,E,C,"MADRIA, WIRA FRIAS",F,1800,2100,20,Fullonline
+,,848,LBYIEEI,Advanced System Dynamic Laboratory,E,R1,"MIGUEL, ANGELIMARIE SAN PEDRO",W,1800,2100,25,Fullonline
+,,,LBYIMEF,Product Design Laboratory,E,R1,,,,,,Fullonline
+,,1436,LBYME1A,Engineering Drawing,E,A1,,T,1100,1400,40,Fullonline
+,,1435,LBYME1A,Engineering Drawing,E,A2,,H,1100,1400,40,Fullonline
+,,1434,LBYME1A,Engineering Drawing,E,A3,,M,1100,1400,40,Fullonline
+,,417,LBYME1B,Engineering Computer-Aided Drafting,E,E1,,M,730,1030,20,Fullonline
+,,416,LBYME1B,Engineering Computer-Aided Drafting,E,E2,,W,730,1030,20,Fullonline
+,,415,LBYME1B,Engineering Computer-Aided Drafting,E,E3,,T,730,1030,20,Fullonline
+,,414,LBYME1B,Engineering Computer-Aided Drafting,E,F1,,H,730,1030,20,Fullonline
+,,413,LBYME1B,Engineering Computer-Aided Drafting,E,F2,,F,1100,1400,20,Fullonline
+,,412,LBYME1B,Engineering Computer-Aided Drafting,E,F3,,F,730,1030,20,Fullonline
+,,411,LBYME1B,Engineering Computer-Aided Drafting,E,G1,,T,1430,1730,20,Fullonline
+,,410,LBYME1B,Engineering Computer-Aided Drafting,E,G2,,H,1430,1730,20,Fullonline
+,,409,LBYME1B,Engineering Computer-Aided Drafting,E,G3,,M,1430,1730,20,Fullonline
+,,408,LBYME1B,Engineering Computer-Aided Drafting,E,G4,,W,1430,1730,20,Fullonline
+,,2903,LBYME1C,Computer Aided Drafting,E,K1,,M,1100,1400,17,Fullonline
+,,2904,LBYME1C,Computer Aided Drafting,E,K2,,W,1100,1400,17,Fullonline
+,,2905,LBYME1C,Computer Aided Drafting,E,L1,,T,1100,1400,17,Fullonline
+,,1609,LBYME1E,Mechanical processes 2,E,E1,,M,1430,1730,18,Fullonline
+,,1608,LBYME1E,Mechanical processes 2,E,E2,,W,1430,1730,18,Fullonline
+,,1607,LBYME1E,Mechanical processes 2,E,E3,,T,1430,1730,18,Fullonline
+,,1606,LBYME1E,Mechanical processes 2,E,F1,,H,1430,1730,18,Fullonline
+,,1605,LBYME1E,Mechanical processes 2,E,F2,,F,915,1215,18,Fullonline
+,,1604,LBYME1E,Mechanical processes 2,E,F3,,W,1800,2100,18,Fullonline
+,,2906,LBYME22,Mechatronics Laboratory,E,E1,"CHUA, ALVIN YU",T,915,1215,23,
+,,2907,LBYME22,Mechatronics Laboratory,E,E2,"CHUA, ALVIN YU",H,915,1215,23,
+,,1762,LBYME2E,Numerical Methods Laboratory,E,E1,"MANRIQUE, ROBBY BARLIS",W,1430,1730,24,
+,,1761,LBYME2E,Numerical Methods Laboratory,E,E2,"MANRIQUE, ROBBY BARLIS",M,1430,1730,24,
+,,1760,LBYME2E,Numerical Methods Laboratory,E,F1,"MANRIQUE, ROBBY BARLIS",H,1430,1730,24,
+,,1759,LBYME2E,Numerical Methods Laboratory,E,F2,"MANRIQUE, ROBBY BARLIS",T,1430,1730,24,
+,,1758,LBYME2E,Numerical Methods Laboratory,E,F3,"MANRIQUE, ROBBY BARLIS",F,730,1030,24,
+,,903,LBYME3C,Computer Application for ME,E,E1,"LOPEZ, NEIL STEPHEN ANGOSTA",T,1430,1730,15,
+,,902,LBYME3C,Computer Application for ME,E,E2,"LOPEZ, NEIL STEPHEN ANGOSTA",W,1430,1730,15,
+,,901,LBYME3C,Computer Application for ME,E,F1,"LOPEZ, NEIL STEPHEN ANGOSTA",H,1430,1730,15,
+,,900,LBYME3C,Computer Application for ME,E,F3,"LOPEZ, NEIL STEPHEN ANGOSTA",M,1430,1730,15,
+,,899,LBYME3C,Computer Application for ME,E,F2,"LOPEZ, NEIL STEPHEN ANGOSTA",W,915,1215,15,
+,,2908,LBYME3D,CNC Machines,E,E1,"CHUA, ALVIN YU",W,1430,1730,15,
+,,2909,LBYME3D,CNC Machines,E,E2,"CHUA, ALVIN YU",H,1430,1730,15,
+,,2910,LBYME3D,CNC Machines,E,F1,"GAN LIM, LAURENCE ALDECOA",M,1430,1730,15,
+,,2911,LBYME3D,CNC Machines,E,F3,"GAN LIM, LAURENCE ALDECOA",T,1430,1730,15,
+,,2912,LBYME3D,CNC Machines,E,F2,"GAN LIM, LAURENCE ALDECOA",M,915,1215,15,
+,,2913,LBYMEEP,Computer Methods for ME,E,E,"LOPEZ, NEIL STEPHEN ANGOSTA",M,915,1215,18,
+,,2918,LBYMF1B,"Machine, Tools, Processes and Practice 1 Lab",E,G1,,M,1100,1400,18,Fullonline
+,,2919,LBYMF1B,"Machine, Tools, Processes and Practice 1 Lab",E,G2,,W,1100,1400,18,Fullonline
+,,2920,LBYMF1B,"Machine, Tools, Processes and Practice 1 Lab",E,G3,,T,1100,1400,18,Fullonline
+,,2921,LBYMF1B,"Machine, Tools, Processes and Practice 1 Lab",E,G4,,H,1100,1400,18,Fullonline
+,,2922,LBYMF1B,"Machine, Tools, Processes and Practice 1 Lab",E,G5,,F,1100,1400,18,Fullonline
+,,2923,LBYMF2B,Computer Aided Engineering Laboratory,E,G1,,T,915,1215,15,Fullonline
+,,2924,LBYMF2B,Computer Aided Engineering Laboratory,E,G2,,H,915,1215,15,Fullonline
+,,2925,LBYMF2B,Computer Aided Engineering Laboratory,E,G3,,M,915,1215,15,Fullonline
+,,2926,LBYMF2B,Computer Aided Engineering Laboratory,E,G4,,W,915,1215,15,Fullonline
+,,2927,LBYMF2B,Computer Aided Engineering Laboratory,E,G5,,F,1100,1400,15,Fullonline
+,,772,LBYMF2D,Materials Engineering Laboratory ,E,G1,,H,915,1215,15,Fullonline
+,,771,LBYMF2D,Materials Engineering Laboratory ,E,G2,,T,915,1215,15,Fullonline
+,,770,LBYMF2D,Materials Engineering Laboratory ,E,G3,,W,915,1215,15,Fullonline
+,,769,LBYMF2D,Materials Engineering Laboratory ,E,G4,,M,915,1215,15,Fullonline
+,,768,LBYMF2D,Materials Engineering Laboratory ,E,G5,,F,1100,1400,15,Fullonline
+,,3459,LBYMF3D,Producr Design for MEM Students Laboratory,E,G1,,M,1245,1545,15,Fullonline
+,,3458,LBYMF3D,Producr Design for MEM Students Laboratory,E,G2,,M,1615,1915,15,Fullonline
+,,3457,LBYMF3D,Producr Design for MEM Students Laboratory,E,G3,,W,1245,1545,15,Fullonline
+,,3456,LBYMF3D,Producr Design for MEM Students Laboratory,E,G4,,W,1615,1915,15,Fullonline
+,,3447,LBYMF3E,Industrial Electronics Laboratory,E,G1,,W,1245,1514,15,Fullonline
+,,3448,LBYMF3E,Industrial Electronics Laboratory,E,G2,,W,1615,1915,15,Fullonline
+,,3449,LBYMF3E,Industrial Electronics Laboratory,E,G3,,M,1245,1545,15,Fullonline
+,,3450,LBYMF3E,Industrial Electronics Laboratory,E,G4,,M,915,1215,15,Fullonline
+,,3382,LBYMF3F,Design of Machine Elements Laboratory,E,G1,,T,1430,1730,15,Fullonline
+,,3452,LBYMF3F,Design of Machine Elements Laboratory,E,G2,,H,1430,1730,15,Fullonline
+,,3453,LBYMF3F,Design of Machine Elements Laboratory,E,G3,,T,915,1215,15,Fullonline
+,,3451,LBYMF3F,Design of Machine Elements Laboratory,E,G4,,H,915,1215,15,Fullonline
+,,2929,LBYMREW,Computer Aided Manufacture Laboratory,E,G1,,T,1430,1730,25,Fullonline
+,,2060,LBYPHOA,Physics Fundamentals Laboratory for Eng'g Majors,E,R1,,F,1100,1400,25,Fullonline
+,,879,LECTCNC,Computer Aided Manufacture,E,G1,,H,1430,1530,25,Fullonline
+,,586,MAINPRO,Manufacturing and Industrial Processes,E,E,,F,1100,1200,28,
+,,585,MAINPRO,Manufacturing and Industrial Processes,E,F1,,F,915,1015,28,
+,,584,MAINPRO,Manufacturing and Industrial Processes,E,F2,,F,800,900,28,
+,,1763,MANAGEN,Engineering Management,E,E,,TH,1430,1600,43,
+,,2611,MATHADV,Advanced Engineering Mathematics for ECE,E,K,"ARADA, GERALD, PACABA",TH,1100,1230,35,Fullonline
+,,2612,MATHADV,Advanced Engineering Mathematics for ECE,E,L,"ARADA, GERALD, PACABA",TH,1615,1745,35,Fullonline
+,,2614,MEADMAT,Advanced Mathematics for ME,E,E,"MANRIQUE, ROBBY BARLIS",TH,1100,1200,40,
+,,2615,MEADMAT,Advanced Mathematics for ME,E,F1,"MANRIQUE, ROBBY BARLIS",MW,1100,1200,40,
+,,2616,MEADMAT,Advanced Mathematics for ME,E,F2,"MANRIQUE, ROBBY BARLIS",MW,800,900,40,
+,,436,MECATRO,Mechatronics,E,E,"CHUA, ALVIN YU",TH,1245,1345,43,
+,,2617,MECHFLU,Fluid Mechanics,E,E,"AUGUSTO, GERARDO LUMAGBAS",TH,915,1045,40,
+,,2618,MECHFLU,Fluid Mechanics,E,F1,"AUGUSTO, GERARDO LUMAGBAS",MW,915,1045,40,
+,,2619,MECHFLU,Fluid Mechanics,E,F2,"AUGUSTO, GERARDO LUMAGBAS",MW,1100,1230,40,
+,,1511,MECOMBE,Combustion Engineering,E,E,,MW,915,1015,28,
+,,1510,MECOMBE,Combustion Engineering,E,F1,"ARBON, NECHOH ABRENICA",TH,915,1015,28,
+,,1509,MECOMBE,Combustion Engineering,E,F2,"ARBON, NECHOH ABRENICA",MW,800,900,28,
+,,2620,MEMACHI,DC and AC Machinery ,E,E,,MW,1100,1200,,
+,,2621,MEMACHI,DC and AC Machinery ,E,F1,,TH,1100,1200,,
+,,2622,MEMACHI,DC and AC Machinery ,E,F2,,TH,800,900,,
+,,3512,MERESME,Methods of Research for ME,E,E,"BIONA, BIENVENIDO MANUEL MAHINAY",F,800,1000,28,
+,,3511,MERESME,Methods of Research for ME,E,F1,"UBANDO, ARISTOTLE TULAGAN",F,1100,1300,28,
+,,3510,MERESME,Methods of Research for ME,E,F2,"UBANDO, ARISTOTLE TULAGAN",H,915,1115,28,
+,,3495,METHECE,Methods of Research for ECE (1E),E,K,"DULAY, ANN ESTOLANO",TH,1245,1415,35,Fullonline
+,,3494,METHECE,Methods of Research for ECE (1E),E,L,"DULAY, ANN ESTOLANO",MW,1245,1415,35,Fullonline
+,,2623,METHER2,Advanced Mechanical Eng'g Thermodynamics,E,E,"FELIX, CHARLES BOLIVAR",MW,915,1045,40,
+,,2624,METHER2,Advanced Mechanical Eng'g Thermodynamics,E,F1,"FELIX, CHARLES BOLIVAR",TH,915,1045,40,
+,,2625,METHER2,Advanced Mechanical Eng'g Thermodynamics,E,F2,"FELIX, CHARLES BOLIVAR",TH,1100,1230,40,
+,,2708,MFADMAT,Advanced Mathematics for MEM,E,G1,,TH,1245,1415,15,Fullonline
+,,2709,MFADMAT,Advanced Mathematics for MEM,E,G2,,MW,1245,1415,15,Fullonline
+,,2710,MFADMAT,Advanced Mathematics for MEM,E,G3,,MW,1430,1600,15,Fullonline
+,,2711,MFADMAT,Advanced Mathematics for MEM,E,G4,,TH,1430,1600,15,Fullonline
+,,2626,MFCAENG,Computer Aided Engineering Lecture,E,G1,,M,1430,1530,15,Fullonline
+,,2627,MFCAENG,Computer Aided Engineering Lecture,E,G2,,W,1430,1530,15,Fullonline
+,,2628,MFCAENG,Computer Aided Engineering Lecture,E,G3,,T,1245,1345,15,Fullonline
+,,2629,MFCAENG,Computer Aided Engineering Lecture,E,G4,,H,1245,1345,15,Fullonline
+,,3463,MFELEC2,MEM Elective 2,E,G1,,F,900,1100,15,Fullonline
+,,3462,MFELEC2,MEM Elective 2,E,G2,,F,1200,1400,15,Fullonline
+,,3461,MFELEC2,MEM Elective 2,E,G3,,F,1200,1400,15,Fullonline
+,,3460,MFELEC2,MEM Elective 2,E,G4,,F,1200,1400,15,Fullonline
+,,3536,MFETHIC,Engineering Ethics for MEM,E,G1,,MW,1615,1715,15,Fullonline
+,,3535,MFETHIC,Engineering Ethics for MEM,E,G2,,TH,1100,1200,15,Fullonline
+,,3534,MFETHIC,Engineering Ethics for MEM,E,G3,,MW,1100,1200,15,Fullonline
+,,3533,MFETHIC,Engineering Ethics for MEM,E,G4,,MW,1430,1530,15,Fullonline
+,,3294,MFINDLX,Industrial Electronics for MEM,E,G1,,MW,1100,1200,15,Fullonline
+,,3293,MFINDLX,Industrial Electronics for MEM,E,G2,,MW,1245,1345,15,Fullonline
+,,3292,MFINDLX,Industrial Electronics for MEM,E,G3,,TH,1245,1345,15,Fullonline
+,,3291,MFINDLX,Industrial Electronics for MEM,E,G4,,TH,1430,1530,15,Fullonline
+,,3313,MFMCDS2,Design of Machine Elements 2,E,G1,,TH,1245,1345,15,Fullonline
+,,3314,MFMCDS2,Design of Machine Elements 2,E,G2,,MW,1100,1200,15,Fullonline
+,,3315,MFMCDS2,Design of Machine Elements 2,E,G3,,TH,1430,1530,15,Fullonline
+,,3316,MFMCDS2,Design of Machine Elements 2,E,G4,,MW,1245,1345,15,Fullonline
+,,2630,MFMTENG,Materials Engineering,E,G1,,TH,1615,1715,15,Fullonline
+,,2631,MFMTENG,Materials Engineering,E,G2,,MW,1615,1715,15,Fullonline
+,,2632,MFMTENG,Materials Engineering,E,G3,,TH,1430,1530,15,Fullonline
+,,2633,MFMTENG,Materials Engineering,E,G4,,MW,1430,1530,15,Fullonline
+,,3317,MFPRDES,Producr Design for MEM Students,E,G1,,TH,1100,1200,15,Fullonline
+,,3318,MFPRDES,Producr Design for MEM Students,E,G2,,TH,1245,1415,15,Fullonline
+,,3319,MFPRDES,Producr Design for MEM Students,E,G3,,MW,1615,1715,15,Fullonline
+,,3320,MFPRDES,Producr Design for MEM Students,E,G4,,TH,1615,1715,15,Fullonline
+,,685,MOMECHE,Mementum Transfer,E,R1,,MW,1100,1200,35,Fullonline
+,,439,MREPROD,MRE Modeling Productions System ,E,G1,,MW,1100,1230,25,Fullonline
+,,992,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,A,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,993,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,B,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,994,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,C,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,995,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,D,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,996,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,E,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,997,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,F,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,998,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,G,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,999,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,H,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,1000,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,I,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,1001,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,J,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,1002,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,K,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,1877,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,L,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,1878,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,M,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,1879,NSTPCW1,CWTS TRAINING SERVICE FORMATION PHASE,E,N,"GARCIA, ABRAHAM TINONAS",S,900,1200,43,Fullonline
+,,733,NSTPLT1,LITERACY TRAINING SERVICE FORMATION PHASE,E,A,"AMISTOSO, MARJORIE GUYONG",S,900,1200,43,Fullonline
+,,732,NSTPLT1,LITERACY TRAINING SERVICE FORMATION PHASE,E,B,"AMISTOSO, MARJORIE GUYONG",S,900,1200,43,Fullonline
+,,731,NSTPLT1,LITERACY TRAINING SERVICE FORMATION PHASE,E,C,"AMISTOSO, MARJORIE GUYONG",S,900,1200,43,Fullonline
+,,730,NSTPLT1,LITERACY TRAINING SERVICE FORMATION PHASE,E,D,"AMISTOSO, MARJORIE GUYONG",S,900,1200,43,Fullonline
+,,729,NSTPLT1,LITERACY TRAINING SERVICE FORMATION PHASE,E,E,"AMISTOSO, MARJORIE GUYONG",S,900,1200,43,Fullonline
+,,,NSTPR01,MILITARY SCIENCE 1: ROTC COMMON MODULE,E,A,,,,,,Fullonline
+,,,NSTPR01,MILITARY SCIENCE 1: ROTC COMMON MODULE,E,B,,,,,,Fullonline
+,,,NSTPR01,MILITARY SCIENCE 1: ROTC COMMON MODULE,E,C,,,,,,Fullonline
+,,1452,NUMMETS,Numerical Methods,E,Q1,"OCHOTORENA, CARLO NOEL ESTRADA",TH,915,1045,35,Fullonline
+,,1451,NUMMETS,Numerical Methods,E,Q2,"OCHOTORENA, CARLO NOEL ESTRADA",MW,915,1045,35,Fullonline
+,,1666,OCCHSAF,Occupational Safety and Health,E,R1,"MARIANO, RONALD SANTILLAN",MW,1430,1600,30,Fullonline
+,,2180,ORE1LEC,Special Topics in Industrial Eng'g 1,E,B,"CRUZ, DENNIS ESPINOSA",MW,1245,1415,25,Fullonline
+,,291,OSYSLEC,Operating Systems ,E,Q1,,TH,1430,1600,35,Fullonline
+,,3304,PARTCHE,Introduction to Particle Technology,E,A1,,MW,1100,1200,35,Fullonline
+,,3305,PARTCHE,Introduction to Particle Technology,E,A2,,MW,1245,1345,35,Fullonline
+,,2290,PHYCHE1,Physical Principles 1,E,A1,,TH,915,1045,30,Fullonline
+,,2291,PHYCHE1,Physical Principles 1,E,A2,,TH,1100,1230,30,Fullonline
+,,2292,PHYCHE1,Physical Principles 1,E,A3,,TH,915,1045,30,Fullonline
+,,941,POPLADE,Power Plant Engineering,E,E,"MAGLAYA, ARCHIE BUENO",MW,1400,1600,43,
+,,2591,PRACCHE,Chemical Eng'g Practicum,E,R1,"ORTENERO, JOSEPH REMPHILLO",-,0,0,45,Fullonline
+,,2665,PRCCPE1,Practicum for CPE,E,R1,,-,0,0,43,
+,,1574,PRCCV11,Civil Engineering Practicum,E,R1,,-,0,0,43,
+,,2666,PRCEC11,Practicum for ECE,E,R1,,-,0,0,43,
+,,1395,PRCIEE1,Industrial Engineering Practicum,E,R1,,-,0,0,43,
+,,2701,PRCMEE1,Mechanical Engineering Practicum,E,R1,,-,0,0,43,
+,,1685,PRCMEM1,Eng'g Practicum for MEM 1,E,R1,,-,0,0,43,
+,,2179,PRCMEM2,Eng'g Practicum for MEM 2,E,R1,,-,0,0,43,
+,,1736,PRCMEM3,Eng'g Practicum for MEM 3,E,R1,,-,0,0,43,
+,,2319,PRO1LEC,Special Topics in Industrial Eng'g 1,E,B,"SANTOS, CHRISTOPHER NINO NILO",MW,1430,1600,25,Fullonline
+,,1601,PROCCHE,Chemical Process Industries,E,A1,,MW,915,1045,30,Fullonline
+,,1600,PROCCHE,Chemical Process Industries,E,A2,,MW,1100,1230,30,Fullonline
+,,1599,PROCCHE,Chemical Process Industries,E,A3,,MW,915,1045,30,Fullonline
+,,,PRODSCI,Production Design Lecture,E,R1,,,,,,Fullonline
+,,2321,PROLOGI,Programming Logic and Design Lecture,E,Q1,,TH,800,900,30,Fullonline
+,,2322,PROLOGI,Programming Logic and Design Lecture,E,Q2,,MW,800,900,30,Fullonline
+,,2323,PROLOGI,Programming Logic and Design Lecture,E,Q3,,TH,945,1045,30,Fullonline
+,,1729,PROMGT1,Introduction to Operations Management for IE majors,E,B1,"MUTUC, JOSE EDGAR SANCHEZ",MW,915,1115,36,Fullonline
+,,1728,PROMGT1,Introduction to Operations Management for IE majors,E,B2,"MUTUC, JOSE EDGAR SANCHEZ",TH,915,1115,36,Fullonline
+,,1727,PROMGT1,Introduction to Operations Management for IE majors,E,C1,"MUTUC, JOSE EDGAR SANCHEZ",TH,1430,1630,36,Fullonline
+,,1726,PROMGT1,Introduction to Operations Management for IE majors,E,C2,"MUTUC, JOSE EDGAR SANCHEZ",TH,1600,1800,36,Fullonline
+,,2324,PROMGT2,Work Study and Measurement,E,R1,,MW,1430,1600,40,Fullonline
+,,292,QUANCHE,Qauntitative Methods in Management,E,A,"BORJA, JOSPEHINE QUINTILLAN",TH,915,1045,45,Fullonline
+,,979,REAKCHE,Chemical Reaction Engineering and Kinetics,E,R1,,TH,730,900,45,Fullonline
+,,2356,SAFEPRO,Safety in the Process Industry,E,A,"AVISO, KATHLEEN BERNARDO",MW,800,900,45,Fullonline
+,,2364,SEMFILA,"CH.E. Laws, Ethics, Seminars and Plant Visits",E,A,"YU, DENNIS NG",F,900,1200,45,Fullonline
+,,2370,SOCTEC2,"Science, Technology and society 2",E,K,"JAVIER, ROBERTO ESTRADA",TH,730,900,43,Fullonline
+,,919,SOFDESG,Software Design Lecture,E,Q1,"ILLAHI, ANA ANTONIETTE CABANTUG",MW,915,1045,35,Fullonline
+,,918,SOFDESG,Software Design Lecture,E,Q2,"ILLAHI, ANA ANTONIETTE CABANTUG",TH,915,1045,35,Fullonline
+,,917,SOFDESG,Software Design Lecture,E,Q3,"ILLAHI, ANA ANTONIETTE CABANTUG",MW,1430,1600,35,Fullonline
+,,3306,SOLUTHE,Solution Thermodynamics,E,A1,,H,1430,1530,40,Fullonline
+,,3307,SOLUTHE,Solution Thermodynamics,E,A2,,T,1430,1530,40,Fullonline
+,,2395,SYSDYN2,Advanced System Dynamic ,E,R1,"MIGUEL, ANGELIMARIE SAN PEDRO",T,1945,2045,25,Fullonline
+,,1730,SYSENG1,Systems Engineering 1 Lecture,E,R1,"CORPUS, PAUL DAVID HECTOR SANTIAGO",TH,1945,2115,40,Fullonline
+,,3372,SYSENG2,Systems Engineering 2 Lecture,E,B,"SEVA, ROSEMARY RUIZ",W,1245,1445,25,Fullonline
+,,3373,SYSENG2,Systems Engineering 2 Lecture,E,C1,"TANGSOC, JAZMIN CHONG",T,1245,1445,25,Fullonline
+,,3374,SYSENG2,Systems Engineering 2 Lecture,E,C2,"TANGSOC, JAZMIN CHONG",H,1245,1445,25,Fullonline
+,,2396,SYSINFO,Management Information System,E,R1,,,,,,Fullonline
+,,3497,THSCH01,Chemical Engineering Thesis 1,E,A1,"BELO, LAWRENCE PHOA",-,0,0,45,Fullonline
+,,3496,THSCH01,Chemical Engineering Thesis 1,E,A2,"BELO, LAWRENCE PHOA",-,0,0,45,Fullonline
+,,2496,THSCP1A,CPE PROJECT 1,E,R1,,-,0,0,43,
+,,1734,THSCP1B,CPE PROJECT 2,E,Q1,,-,0,0,35,Fullonline
+,,2497,THSCP1C,CPE PROJECT 3,E,R1,,-,0,0,43,
+,,2498,THSCV11,Project Study 1 for Civ,E,R1,,-,0,0,43,
+,,1349,THSCV12,Project Study 2 for Civ,E,H,,-,0,0,40,Fullonline
+,,1348,THSCV12,Project Study 2 for Civ,E,I,,-,0,0,40,Fullonline
+,,849,THSCV13,Project Study 3 for Civ,E,R1,,-,0,0,43,
+,,434,THSEC11,ECE PROJECT 1,E,R1,,-,0,0,43,
+,,555,THSEC12,ECE PROJECT 2,E,K,,-,0,0,35,Fullonline
+,,757,THSEC13,ECE PROJECT 3,E,R1,,-,0,0,43,
+,,916,THSIEE1,Thesis 1 for IE,E,B,"SIY, ERIC ANG",-,0,0,40,Fullonline
+,,437,THSIEE2,Thesis 2 for IE,E,R1,"SIY, ERIC ANG",-,0,0,40,Fullonline
+,,392,THSIEE3,Thesis3 for IE,E,R1,"SIY, ERIC ANG",-,0,0,40,Fullonline
+,,594,THSMEEA,Mechanical Engineering Project Study 1,E,R1,,-,0,0,43,
+,,2534,THSMEEB,Mechanical Engineering Project Study 2,E,R1,,-,0,0,43,
+,,2535,THSMEEC,Mechanical Engineering Project Study 3,E,R1,,-,0,0,43,
+,,599,THSMEM1,MEM Thesis I,E,R1,,-,0,0,43,
+,,2536,THSMEM2,MEM Thesis II,E,G1,,H,1615,1915,25,Fullonline
+,,2537,THSMEM3,MEM Thesis 3,E,R1,,-,0,0,43,
+,,2166,TREDTRI,The Christian and the Word,E,B,,MW,1430,1600,43,Fullonline
+,,1124,TREDTRI,The Christian and the Word,E,G1,,TH,1245,1415,43,Fullonline
+,,1480,TRESYSD,"Transportation System Design, Airports, Ports & Railways",E,W,"ROXAS, NICANOR RODRIGUEZ",TH,1245,1415,25,Fullonline
+,,2411,TRONIC1,Electronics Devices and Circuits,E,K,"GUSTILO, REGGIE COBARRUBIA",MW,1430,1600,35,Fullonline
+,,2412,TRONIC1,Electronics Devices and Circuits,E,L,"GUSTILO, REGGIE COBARRUBIA",MW,915,1045,35,Fullonline
+,,2415,WIRLCOM,Wireless Communications,E,K,"GUSTILO, REGGIE COBARRUBIA",MW,1245,1415,35,Fullonline
