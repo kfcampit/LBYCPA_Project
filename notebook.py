@@ -3,13 +3,14 @@ from tkinter import ttk
 from tkinter.font import Font
 from tkinter import messagebox
 import os
+import sys
 
 
 class notebookMain:
     def __init__(self, root):
         self.root = root
         root.title("LBYCPA1 Project")
-        root.protocol("WM_DELETE_WINDOW", lambda: exit())
+        root.protocol("WM_DELETE_WINDOW", lambda: sys.exit())
 
         mainframe = Frame(root)
         mainframe.grid(column = 0, row = 0, padx = 4, pady = 8)
