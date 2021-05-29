@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter.font import Font
 import pandas as pd
 import os
-import exit
+
 
 class schedulePage:
     def __init__(self, root):

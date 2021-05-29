@@ -6,7 +6,6 @@ from tkinter import messagebox
 from tkcalendar import Calendar, DateEntry
 import datetime
 import os
-import exit
 #Click the buttons on the left side to better understand our code
 
 #Main Calendar Page

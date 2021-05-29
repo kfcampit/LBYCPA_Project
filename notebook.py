@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter.font import Font
 from tkinter import messagebox
 import os
-import exit
+
 
 class notebookMain:
     def __init__(self, root):

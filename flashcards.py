@@ -3,7 +3,6 @@ from tkinter import ttk
 from tkinter.font import Font
 from tkinter import Text, Tk
 from tkinter import messagebox
-import exit
 
 
 class flashcard():
