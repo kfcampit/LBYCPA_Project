@@ -1,2 +1,3 @@
 CALENG1;Differential Calculus;E;B1;nan;TH;730.0;900.0
-BASPHYS;Basic Physics;E;R1;nan;TH;1430.0;1600.0
+PROLOGI;Programming Logic and Design Lecture;E;Q2;nan;MW;800.0;900.0
+ENGCHEM;Chemistry for Engineers;E;H;GARCIA, EMMANUEL MONTINOLA;TH;1100.0;1230.0

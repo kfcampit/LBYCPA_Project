@@ -53,7 +53,7 @@ class enlistMain:
         self.errorText = StringVar()
         Label(mainframe, textvariable = self.errorText, font = Font(family = "Helvetica", size = 8, slant = "italic")).grid(column = 1, row = 14, sticky = W, pady = 8)
         self.saveButton = ttk.Button(mainframe, text = "Save", width = 16, command = self.save)
-        ttk.Button(mainframe, text = "View Calendar", width = 20, command = self.back).grid(column = 2, row = 15, sticky = E, pady = 4)
+        ttk.Button(mainframe, text = "View Calendar", width = 20, command = self.gotoSchedule).grid(column = 2, row = 15, sticky = E, pady = 4)
         ttk.Button(mainframe, text = "Back", width = 16, command = self.back).grid(column = 1, row = 15, padx = 4, sticky = W, pady = 4)
         
     def coursePopup(self):
@@ -150,6 +150,10 @@ class enlistMain:
             else:
                 self.errorText.set("Invalid schedule")
         
+    def gotoSchedule(self):
+        self.root.destroy()
+        self.new_window = Tk()
+        schedulePage(self.new_window)
 
     def back(self, *args):
         self.root.destroy()
