@@ -22,7 +22,7 @@ class flashcard():
         myLabel = ttk.Label(root, text="FLASHCARD", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 0, columnspan = 3, padx = 50, pady = 20)
 
-        ttk.Button(root, text = "Back", command = self.back, style = 'Comic.TButton').grid(column = 2, row = 2, padx = 8)
+        ttk.Button(root, text = "Back", command = self.back, style = 'Comic.TButton').grid(column = 2, row = 2, padx = 8, pady = 8)
 
         createbtn = ttk.Button(root, text ="CREATE", command = self.create, style = 'Comic.TButton')
         createbtn.grid(row=1,column=0,padx=50)
@@ -35,9 +35,13 @@ class flashcard():
 
     #Program Functions
     def create(self, *args):
-        self.root.destroy()
-        self.new_window = Tk()
-        create(self.new_window)
+        confirm = messagebox.askquestion("Delete current flashcard?","Creating a new flashcard will delete the current one. Are you sure?")
+        if confirm == "yes":
+            self.root.destroy()
+            self.new_window = Tk()
+            create(self.new_window)
+        else:
+            return
         pass
 
     def edit(self, *args):
@@ -75,7 +79,7 @@ class create():
         root.title("LBYCPA1 Project")
         root.protocol("WM_DELETE_WINDOW", lambda : exit())
         self.root = root
-        ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 3, padx = 30,sticky = E)
+        ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 4, padx = 30,sticky = E)
 
         style = ttk.Style()
         style.configure('Comic.TLabel', font=("Comic Sans MS", 14, "bold"))
@@ -83,17 +87,22 @@ class create():
         myLabel = ttk.Label(root, text= "CREATE", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 2, padx = 50, pady = 20)
 
+        createinfo = "Align the question inputs with the answer inputs.\nMake sure they are of the same length.\nSeparate the questions using \"Enter\".\nAvoid empty \"Enter\" spots as they would count as an item when you study."
+
+        Desc = ttk.Label(root, text= createinfo, style = "Comic.TLabel", justify = CENTER)
+        Desc.grid(row = 1, column = 0, columnspan = 4, padx = 50, pady = 20)
+
         QLabel = ttk.Label(root, text= "Question", style = "Comic.TLabel")
-        QLabel.grid(row = 1, column = 0, padx = 50, pady = 20)
+        QLabel.grid(row = 2, column = 0, padx = 50, pady = 20)
 
         self.Question = Text(root,height = 10,width = 50)
-        self.Question.grid(row = 2,column = 0, padx = 30, pady=30)
+        self.Question.grid(row = 3,column = 0, padx = 30, pady=30)
 
         ALabel = ttk.Label(root, text= "Answer", style = "Comic.TLabel")
-        ALabel.grid(row = 1, column = 3, padx = 50, pady = 20)
+        ALabel.grid(row = 2, column = 3, padx = 50, pady = 20)
 
         self.Answer = Text(root, height = 10, width = 50)
-        self.Answer.grid(row = 2, column = 3, padx = 30, pady=30)
+        self.Answer.grid(row = 3, column = 3, padx = 30, pady=30)
         def save():
             Answers = self.Answer.get("1.0",'end-1c')
             Questions = self.Question.get("1.0",'end-1c')
@@ -106,6 +115,7 @@ class create():
                 assert Answers!=['']
             except:
                 messagebox.showerror("Empty Questions or Answers", "Make sure to input something in the text boxes")
+                return
 
             try:
                 assert len(Answers)==len(Questions)
@@ -118,9 +128,9 @@ class create():
                         f.write("\n")
                         f.write(Answers[i])
                         f.write("\n")
-
+                messagebox.showinfo("Saved!", "Changes are made")
             pass
-        ttk.Button(root, text = "Save", command = save).grid(column = 0, row = 3, padx = 30,sticky = W)
+        ttk.Button(root, text = "Save", command = save).grid(column = 0, row = 4, padx = 30,sticky = W)
 
     def back(self, *args):
         self.root.destroy()
@@ -133,25 +143,29 @@ class edit():
         root.title("LBYCPA1 Project")
         root.protocol("WM_DELETE_WINDOW", lambda : exit())
         self.root = root
-        ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 3, padx = 30,sticky = E)
+        ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 4, padx = 30,sticky = E)
 
         style = ttk.Style()
         style.configure('Comic.TLabel', font=("Comic Sans MS", 14, "bold"))
 
         myLabel = ttk.Label(root, text= "EDIT", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 2, padx = 50, pady = 20)
+        createinfo = "Align the question inputs with the answer inputs.\nMake sure they are of the same length.\nSeparate the questions using \"Enter\".\nAvoid empty \"Enter\" spots as they would count as an item when you study."
+
+        Desc = ttk.Label(root, text= createinfo, style = "Comic.TLabel", justify = CENTER)
+        Desc.grid(row = 1, column = 0, columnspan = 4, padx = 50, pady = 20)
 
         QLabel = ttk.Label(root, text= "Question", style = "Comic.TLabel")
-        QLabel.grid(row = 1, column = 0, padx = 50, pady = 20)
+        QLabel.grid(row = 2, column = 0, padx = 50, pady = 20)
 
         self.Question = Text(root,height = 10,width = 50)
-        self.Question.grid(row = 2,column = 0, padx = 30, pady=30)
+        self.Question.grid(row = 3,column = 0, padx = 30, pady=30)
 
         ALabel = ttk.Label(root, text= "Answer", style = "Comic.TLabel")
-        ALabel.grid(row = 1, column = 3, padx = 50, pady = 20)
+        ALabel.grid(row = 2, column = 3, padx = 50, pady = 20)
 
         self.Answer = Text(root, height = 10, width = 50)
-        self.Answer.grid(row = 2, column = 3, padx = 30, pady=30)
+        self.Answer.grid(row = 3, column = 3, padx = 30, pady=30)
 
         with open("data\\Flashcards.txt",mode = 'r') as r:
             lines = r.readlines()
@@ -171,6 +185,7 @@ class edit():
                 assert Answers!=['']
             except:
                 messagebox.showerror("Empty Questions or Answers", "Make sure to input something in the text boxes")
+                return
 
             try:
                 assert len(Answers)==len(Questions)
@@ -183,9 +198,9 @@ class edit():
                         f.write("\n")
                         f.write(Answers[i])
                         f.write("\n")
-
+                messagebox.showinfo("Saved!", "Changes are made")
             pass
-        ttk.Button(root, text = "Save", command = save).grid(column = 0, row = 3, padx = 30,sticky = W)
+        ttk.Button(root, text = "Save", command = save).grid(column = 0, row = 4, padx = 30,sticky = W)
 
     def back(self, *args):
         self.root.destroy()
@@ -215,9 +230,9 @@ class study():
         global Questions
         global Answers
 
-        Questions =[lines[i] for i in range(0,len(lines),2)]
-        Answers = [lines[i+1] for i in range(0,len(lines),2)]
-        
+        Questions =[lines[i] for i in range(0,len(lines),2) if lines[i] != '' and lines[i] != '\n']
+        Answers = [lines[i+1] for i in range(0,len(lines),2) if lines[i+1] != '' and lines[i+1] != '\n']
+
         self.QuestionLabel = ttk.Label(root, text= Questions[0])
         self.QuestionLabel.grid(row = 1, column = 0,columnspan = 3, padx = 50, pady = 20)
 

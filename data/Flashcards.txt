@@ -1,6 +1,4 @@
-What are arrays?
-Arrays are a data type able to store a lot of data
-What are strings?
-An array of characters
-What is a variable?
-A word that can store data
+Oh no
+Oh yes
+
+
