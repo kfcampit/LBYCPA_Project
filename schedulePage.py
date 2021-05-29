@@ -178,6 +178,15 @@ class enlistMain:
         ttk.Button(mainframe, text = "View Calendar", width = 20, command = self.gotoSchedule).grid(column = 2, row = 15, sticky = E, pady = 4)
         ttk.Button(mainframe, text = "Back", width = 16, command = self.back).grid(column = 1, row = 15, padx = 4, sticky = W, pady = 4)
         
+        self.courseName.set("Course Name")
+        self.facultyName.set("Professor Name")
+        self.courseCde.set("Course Code")
+        self.section.set("Section")
+        self.day.set("Day")
+        self.time.set("Start time - End time")
+
+
+
     def coursePopup(self):
         root = Toplevel()
         root.title("LBYCPA1 Project")
