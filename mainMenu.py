@@ -1,4 +1,3 @@
-#from enlist import enlistMain
 from schedulePage import *
 from notebook import notebookMain
 from gradeCalculator import gradeCalculator
@@ -15,9 +14,8 @@ class mainMenu:
         root.title("LBYCPA1 Project")
         root.geometry("400x400+64+64")
         mainframe = Frame(root)
-
+        #Create the Labels and the Buttons
         ttk.Label(mainframe, text = "Main Menu", font = Font(family = 'Helvetica', size = 16, weight = "bold"))
-
         ttk.Button(mainframe, text = "Enlist", command = self.enlistPage)
         ttk.Button(mainframe, text = "Calendar", command = self.calendarPage)
         ttk.Button(mainframe, text = "Schedule", command = self.schedulePage)
@@ -31,7 +29,7 @@ class mainMenu:
 
         mainframe.pack(expand = 1)
 
-
+    #The functions of each command
     def enlistPage(self, *args):
         self.root.destroy()
         self.new_window = Tk()
