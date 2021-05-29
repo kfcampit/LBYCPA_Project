@@ -103,34 +103,37 @@ class create():
 
         self.Answer = Text(root, height = 10, width = 50)
         self.Answer.grid(row = 3, column = 3, padx = 30, pady=30)
-        def save():
-            Answers = self.Answer.get("1.0",'end-1c')
-            Questions = self.Question.get("1.0",'end-1c')
 
-            Answers = Answers.split("\n")
-            Questions = Questions.split("\n")
+        ttk.Button(root, text = "Save", command = self.saveC).grid(column = 0, row = 4, padx = 30,sticky = W)
 
-            try:
-                assert Questions!=['']
-                assert Answers!=['']
-            except:
-                messagebox.showerror("Empty Questions or Answers", "Make sure to input something in the text boxes")
-                return
+    def saveC(self, *args):
+        Answers = self.Answer.get("1.0",'end-1c')
+        Questions = self.Question.get("1.0",'end-1c')
+        Answers = Answers.split("\n")
+        Questions = Questions.split("\n")
 
-            try:
-                assert len(Answers)==len(Questions)
-            except:
-                messagebox.showerror("Not the same number of Questions and Answers", "Make sure that the questions and answers are separated by 'enter' and they are of the same length")
-            else:
-                with open("data\\Flashcards.txt", mode="w+") as f:
-                    for i in range(len(Questions)):
-                        f.write(Questions[i])
-                        f.write("\n")
-                        f.write(Answers[i])
-                        f.write("\n")
+        print(Answers, Questions)
+        try:
+            assert Questions!=['']
+            assert Answers!=['']
+        except:
+            messagebox.showerror("Empty Questions or Answers", "Make sure to input something in the text boxes")
+            return
+
+        try:
+            assert len(Answers)==len(Questions)
+        except:
+            messagebox.showerror("Not the same number of Questions and Answers", "Make sure that the questions and answers are separated by 'enter' and they are of the same length")
+        else:
+            with open("data\\flashcards\\Flashcards.txt", mode="w+") as f:
+                for i in range(len(Questions)):
+                    f.write(Questions[i])
+                    f.write("\n")
+                    f.write(Answers[i])
+                    f.write("\n")
                 messagebox.showinfo("Saved!", "Changes are made")
             pass
-        ttk.Button(root, text = "Save", command = save).grid(column = 0, row = 4, padx = 30,sticky = W)
+    
 
     def back(self, *args):
         self.root.destroy()
@@ -172,35 +175,37 @@ class edit():
         for i in range(0,len(lines),2):
             self.Question.insert(INSERT,lines[i])
             self.Answer.insert(INSERT,lines[i+1])
-            
-        def save():
-            Answers = self.Answer.get("1.0",'end-1c')
-            Questions = self.Question.get("1.0",'end-1c')
+        
+        ttk.Button(root, text = "Save", command = self.save).grid(column = 0, row = 4, padx = 30,sticky = W)
 
-            Answers = Answers.split("\n")
-            Questions = Questions.split("\n")
+    def save(self, *args):
+        Answers = self.Answer.get("1.0",'end-1c')
+        Questions = self.Question.get("1.0",'end-1c')
 
-            try:
-                assert Questions!=['']
-                assert Answers!=['']
-            except:
-                messagebox.showerror("Empty Questions or Answers", "Make sure to input something in the text boxes")
-                return
+        Answers = Answers.split("\n")
+        Questions = Questions.split("\n")
 
-            try:
-                assert len(Answers)==len(Questions)
-            except:
-                messagebox.showerror("Not the same number of Questions and Answers", "Make sure that the questions and answers are separated by 'enter' and they are of the same length")
-            else:
-                with open("data\\flashcards\\Flashcards.txt", mode="w+") as f:
-                    for i in range(len(Questions)):
-                        f.write(Questions[i])
-                        f.write("\n")
-                        f.write(Answers[i])
-                        f.write("\n")
-                messagebox.showinfo("Saved!", "Changes are made")
-            pass
-        ttk.Button(root, text = "Save", command = save).grid(column = 0, row = 4, padx = 30,sticky = W)
+        try:
+            assert Questions!=['']
+            assert Answers!=['']
+        except:
+            messagebox.showerror("Empty Questions or Answers", "Make sure to input something in the text boxes")
+            return
+
+        try:
+            assert len(Answers)==len(Questions)
+        except:
+            messagebox.showerror("Not the same number of Questions and Answers", "Make sure that the questions and answers are separated by 'enter' and they are of the same length")
+        else:
+            with open("data\\flashcards\\Flashcards.txt", mode="w+") as f:
+                for i in range(len(Questions)):
+                    f.write(Questions[i])
+                    f.write("\n")
+                    f.write(Answers[i])
+                    f.write("\n")
+            messagebox.showinfo("Saved!", "Changes are made")
+        pass
+        
 
     def back(self, *args):
         self.root.destroy()

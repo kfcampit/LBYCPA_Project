@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
+from tkinter import messagebox
 import os
 
 class notebookMain:
@@ -21,10 +22,15 @@ class notebookMain:
         root.mainloop()
 
     def gotoNotebookView(self, *args):
-        self.root.destroy()
-        self.new_window = Tk()
-        notebookView(self.new_window)
-        pass
+        try:
+            optionList = self.loadList()
+            assert optionList != []
+        except:
+            messagebox.showerror("No notes found","Create notes first to view them")
+        else:
+            self.root.destroy()
+            self.new_window = Tk()
+            notebookView(self.new_window)
 
     def gotoNotebookCreate(self, *args):
         self.root.destroy()
@@ -34,6 +40,19 @@ class notebookMain:
     def back(self, *args):
         self.root.destroy()
         pass
+    
+
+    def loadList(self, *args):
+        loadedList = []
+
+        with open("data\\notes\\_master.txt", mode = "r", encoding = "utf8") as text:
+            self.listText = text.readlines()
+        for line in self.listText:
+            if line != '\n':
+                loadedList.append(line.split(";")[1][:-1])
+        return loadedList
+
+
 
 class notebookCreate:
     def __init__(self, root):
@@ -108,6 +127,7 @@ class notebookView:
         optionList = self.loadList()
 
         OptionMenu(root, self.titleText, *optionList).grid(column = 0, row = 0, sticky = (W, N), ipadx = 120, pady = 50, padx = 64)
+            
         ttk.Label(mainframe, text = "Content:", font = Font(family = "Helvetica", size = 12)).grid(column = 1, row = 4, sticky = W)
         
         self.contentText = Text(mainframe, width = 96, height = 26)
@@ -122,25 +142,30 @@ class notebookView:
 
     def loadList(self, *args):
         loadedList = []
-
         with open("data\\notes\\_master.txt", mode = "r", encoding = "utf8") as text:
             self.listText = text.readlines()
         for line in self.listText:
-            loadedList.append(line.split(";")[1][:-1])
+            if line != '\n':
+                loadedList.append(line.split(";")[1])
         return loadedList
 
     def loadContent(self, *args):
         try:
+            x = ''
             for line in self.listText:
-                if self.titleText.get() == line.split(";")[1][:-1]:
-                    self.fileName = line.split(";")[0]
+                if line != '\n':
+                    x = (line.split(";")[1])
+                if self.titleText.get() == x:
+                    self.fileName = (line.split(";")[0])
+        except:
+            pass
+        else:
             with open("data\\notes\\" + self.fileName, mode = "r", encoding = "utf8") as text:
                 title = text.readline()
                 content = "".join(text.readlines())
             self.contentText.delete(1.0, "end")
             self.contentText.insert(1.0, content)
-        except:
-            pass
+
 
     def delete(self, *args):
         if self.titleText.get() != "Select a Notebook":
@@ -163,8 +188,6 @@ class notebookView:
     def save(self, *args):
         with open("data\\notes\\" + self.fileName, mode = "w", encoding = "utf8") as text:
                 text.writelines(self.titleText.get() + "\n" + self.contentText.get("1.0",'end-1c'))
-
-        
         self.root.destroy()
         self.new_window = Tk()
         notebookMain(self.new_window)

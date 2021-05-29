@@ -1,4 +1,3 @@
-from enlist import enlistMain
 from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
@@ -60,7 +59,7 @@ class schedulePage:
         c = 0
 
         for classInfo in self.classTimes:
-            print(classInfo)
+            
             for day in classInfo[-3]:
                 if day == "M": d = 0
                 elif day == "T": d = 1
@@ -79,7 +78,7 @@ class schedulePage:
                 if int(classInfo[-1]) % 100 >= 30:
                     m += 1
 
-                print(n, m, d)
+                
                 
                 for i in range(n, m):
                     self.labelColors[i][d] = colors[c]
@@ -259,27 +258,25 @@ class enlistMain:
             valid = []
 
             #StoredSched = sched exisiting
-            print(checkList)
-            print(storedSched)
+
             for classSched in storedSched:
                 #Case 1, if the input has same day (2 days) with the previous schedules and the subject names are different
                 if len(checkList[5]) == 2 and (checkList[5][0] in classSched[5] or checkList[5][1] in classSched[5]) and checkList[0] != classSched[0]:
                     valid.append(self.checkValidity(checkList, classSched))
-                    print(1)
+                    
                 #Case 2, if the input has same day (1 day) with the previous schedules and the subject names are different
                 elif len(checkList[5]) == 1 and checkList[5] in classSched[5] and checkList[0] != classSched[0]:
                     valid.append(self.checkValidity(checkList, classSched))
-                    print(2)
+                    
 
                 #Case 3, if the input has no same day with the previous schedules and the subject names are different
                 elif checkList[0] != classSched[0]:
                     valid.append(True)
-                    print(3)
+                    
                 #If not in cases
                 else:
                     valid.append(False)
-                    print(4)
-            print(valid)
+                    
             if all(valid):
                 with open("data\\schedule\\sched.txt", mode = "a", encoding = "utf8") as writeText:
                     if len(checkList[5]) == 2:
@@ -298,6 +295,6 @@ class enlistMain:
     def back(self, *args):
         self.root.destroy()
 
-root = Tk()
-schedulePage(root)
-root.mainloop()
+# root = Tk()
+# schedulePage(root)
+# root.mainloop()
