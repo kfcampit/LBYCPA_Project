@@ -6,6 +6,7 @@ from flashcards import *
 from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
+import sys
 
 
 class mainMenu:
@@ -67,4 +68,4 @@ class mainMenu:
         pass
 
     def exitProgram(self, *args):
-        exit()
+        sys.exit(0)

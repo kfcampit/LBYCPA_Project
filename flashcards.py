@@ -3,12 +3,13 @@ from tkinter import ttk
 from tkinter.font import Font
 from tkinter import Text, Tk
 from tkinter import messagebox
+import sys
 
 
 class flashcard():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
-        root.protocol("WM_DELETE_WINDOW", lambda : exit())
+        root.protocol("WM_DELETE_WINDOW", lambda : sys.exit(0))
         self.root = root
 
         #Configuring styles

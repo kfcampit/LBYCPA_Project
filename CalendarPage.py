@@ -6,13 +6,14 @@ from tkinter import messagebox
 from tkcalendar import Calendar, DateEntry
 import datetime
 import os
+import sys
 #Click the buttons on the left side to better understand our code
 
 #Main Calendar Page
 class CalendarPage():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
-        root.protocol("WM_DELETE_WINDOW", lambda : exit())
+        root.protocol("WM_DELETE_WINDOW", lambda : sys.exit())
         self.root = root
 
         #Configuring styles

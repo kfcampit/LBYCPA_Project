@@ -3,13 +3,14 @@ from tkinter import ttk
 from tkinter.font import Font
 import pandas as pd
 import os
+import sys
 
 
 class schedulePage:
     def __init__(self, root):
         self.root = root
         root.title("LBYCPA1 Project")
-        root.protocol("WM_DELETE_WINDOW", lambda: exit())
+        root.protocol("WM_DELETE_WINDOW", lambda : sys.exit(0))
 
         mainframe = Frame(root)
         mainframe.grid(column = 0, row = 0, padx = 8, pady = 8)

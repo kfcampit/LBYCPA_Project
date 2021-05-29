@@ -1,12 +1,13 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
+import sys
 
 
 class gradeCalculator():
     def __init__(self, root):
         root.title("LBYCPA1 Project")
-        root.protocol("WM_DELETE_WINDOW", lambda : exit())
+        root.protocol("WM_DELETE_WINDOW", lambda : sys.exit(0))
 
         root.update_idletasks()
         self.root = root
