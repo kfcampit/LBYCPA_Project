@@ -1,4 +1,4 @@
-from enlist import enlistMain
+#from enlist import enlistMain
 from notebook import notebookMain
 from gradeCalculator import gradeCalculator
 from CalendarPage import CalendarPage
@@ -33,7 +33,7 @@ class mainMenu:
     def enlistPage(self, *args):
         self.root.destroy()
         self.new_window = Tk()
-        enlistMain(self.new_window)
+        #enlistMain(self.new_window)
         pass
 
     def calendarPage(self, *args):

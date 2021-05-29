@@ -56,7 +56,7 @@ class schedulePage:
 
         
     def loadColors(self):
-        colors = ["red", "blue", "yellow", "orange", "snow"]
+        colors = ["red", "blue", "yellow", "orange", "snow", "purple1", "VioletRed1", "goldenrod1", "snow4", "dark olive green", "light cyan", "colar"]
         c = 0
 
         for classInfo in self.classTimes:
