@@ -1,3 +1,4 @@
 
-prologi.txt;PROLOGI
-wer.txt;wer
+
+new.txt;new
+test.txt;test

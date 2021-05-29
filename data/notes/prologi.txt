@@ -1,3 +1,0 @@
-PROLOGI
-
-Arrays store multiple content
