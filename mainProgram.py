@@ -2,6 +2,8 @@ from tkinter import *
 from tkinter import ttk
 from gradeCalculator import *
 from mainMenu import *
+import exit
+
 
 if __name__ == "__main__":
     running = True

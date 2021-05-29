@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter.font import Font
+import exit
 
 class gradeCalculator():
     def __init__(self, root):
