@@ -4,7 +4,6 @@ from tkinter import ttk
 from tkinter.font import Font
 import pandas as pd
 import os
-from numpy import delete
 
 class schedulePage:
     def __init__(self, root):
@@ -27,14 +26,18 @@ class schedulePage:
         for d, day in enumerate(days):
             Label(calendar, text = day, width = 16, borderwidth = 1, relief = "groove", background = "green4").grid(column = d, row = 0, sticky = (W, E))
 
-        for time, t in enumerate(range(1, ((self.lateTime - self.earlyTime) * 2) + 1, 2), self.earlyTime):
+        for time, t in enumerate(range(1, ((self.lateTime - self.earlyTime) * 2) + 3, 2), self.earlyTime):
             Label(calendar, text = str(time) + ":00", width = 16, height = 2, borderwidth = 1, relief = "groove", background = "green3").grid(rowspan = 2, column = 0, row = t, sticky = (W, E))
 
-        self.labelColors = [["PaleGreen1" for x in range(1, 7)] for y in range(1, ((self.lateTime - self.earlyTime) * 2) + 1)]
-        self.labelText = [["" for x in range(1, 7)] for y in range(1, ((self.lateTime - self.earlyTime) * 2) + 1)]
-        self.loadColors()
+        self.labelColors = [["PaleGreen1" for x in range(1, 7)] for y in range(1, ((self.lateTime - self.earlyTime) * 2) + 3)]
+        self.labelText = [["" for x in range(1, 7)] for y in range(1, ((self.lateTime - self.earlyTime) * 2) + 3)]
 
-        for i in range(1, ((self.lateTime - self.earlyTime) * 2) + 1):
+        try:
+            self.loadColors()
+        except:
+            pass
+
+        for i in range(1, ((self.lateTime - self.earlyTime) * 2) + 3):
             for j in range(1, 7):
                Label(calendar, width = 16, text = self.labelText[i - 1][j - 1], height = 1, borderwidth = 1, relief = "groove", background = self.labelColors[i - 1][j - 1]).grid(column = j, row = i, sticky = (W, E))
 
@@ -57,6 +60,7 @@ class schedulePage:
         c = 0
 
         for classInfo in self.classTimes:
+            print(classInfo)
             for day in classInfo[-3]:
                 if day == "M": d = 0
                 elif day == "T": d = 1
@@ -74,6 +78,8 @@ class schedulePage:
                 m *= 2
                 if int(classInfo[-1]) % 100 >= 30:
                     m += 1
+
+                print(n, m, d)
                 
                 for i in range(n, m):
                     self.labelColors[i][d] = colors[c]
