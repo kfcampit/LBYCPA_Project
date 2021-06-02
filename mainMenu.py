@@ -16,7 +16,7 @@ class mainMenu:
         root.geometry("400x400+64+64")
         mainframe = Frame(root)
         #Create the Labels and the Buttons
-        ttk.Label(mainframe, text = "Main Menu", font = Font(family = 'Helvetica', size = 16, weight = "bold"))
+        ttk.Label(mainframe, text = "Virtual Sudent\nPlanner", font = Font(family = 'Corbel', size = 20, weight = "bold"), justify = 'center')
         ttk.Button(mainframe, text = "Enlist", command = self.enlistPage)
         ttk.Button(mainframe, text = "Calendar", command = self.calendarPage)
         ttk.Button(mainframe, text = "Schedule", command = self.schedulePage)

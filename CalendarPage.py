@@ -18,10 +18,10 @@ class CalendarPage():
 
         #Configuring styles
         style = ttk.Style()
-        style.configure('Helvetica.TButton', font=("Helvetica", 14))
+        style.configure('Helvetica.TButton', font=("Corbel", 14))
 
         style = ttk.Style()
-        style.configure('Helvetica.TLabel', font=("Helvetica", 44, "bold"))
+        style.configure('Helvetica.TLabel', font=("Corbel", 44, "bold"))
 
         myLabel = ttk.Label(root, text="CALENDAR", style = "Helvetica.TLabel")
         myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)
@@ -68,10 +68,10 @@ class CreateCalendar():
 
         #Configuring styles
         style = ttk.Style()
-        style.configure('Helvetica.TButton', font=("Helvetica", 12))
+        style.configure('Helvetica.TButton', font=("Corbel", 12))
 
         style = ttk.Style()
-        style.configure('Helvetica.TLabel', font=("Helvetica", 12))
+        style.configure('Helvetica.TLabel', font=("Corbel", 12))
 
         ttk.Label(root, text="Choose date", style = 'Helvetica.TLabel').grid(row = 1, column = 0, pady=10, sticky=W)
 
@@ -290,10 +290,10 @@ class ViewCalendar():
 
         #Configuring styles
         style = ttk.Style()
-        style.configure('Helvetica.TButton', font=("Helvetica", 14))
+        style.configure('Helvetica.TButton', font=("Corbel", 14))
 
         style = ttk.Style()
-        style.configure('Helvetica.TLabel', font=("Helvetica", 44, "bold"))
+        style.configure('Helvetica.TLabel', font=("Corbel", 44, "bold"))
 
         myLabel = ttk.Label(root, text="View", style = "Helvetica.TLabel")
         myLabel.grid(row = 0, column = 0, columnspan = 4, padx = 50, pady = 20)

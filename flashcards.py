@@ -14,10 +14,10 @@ class flashcard():
 
         #Configuring styles
         style = ttk.Style()
-        style.configure('Comic.TButton', font=("Comic Sans MS", 14))
+        style.configure('Comic.TButton', font=("Corbel", 14))
 
         style = ttk.Style()
-        style.configure('Comic.TLabel', font=("Comic Sans MS", 44, "bold"))
+        style.configure('Comic.TLabel', font=("Corbel", 44, "bold"))
 
         myLabel = ttk.Label(root, text="FLASHCARD", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 0, columnspan = 3, padx = 50, pady = 20)
@@ -82,7 +82,7 @@ class create():
         ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 4, padx = 30,sticky = E)
 
         style = ttk.Style()
-        style.configure('Comic.TLabel', font=("Comic Sans MS", 14, "bold"))
+        style.configure('Comic.TLabel', font=("Corbel", 14, "bold"))
 
         myLabel = ttk.Label(root, text= "CREATE", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 2, padx = 50, pady = 20)
@@ -149,7 +149,7 @@ class edit():
         ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 4, padx = 30,sticky = E)
 
         style = ttk.Style()
-        style.configure('Comic.TLabel', font=("Comic Sans MS", 14, "bold"))
+        style.configure('Comic.TLabel', font=("Corbel", 14, "bold"))
 
         myLabel = ttk.Label(root, text= "EDIT", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 2, padx = 50, pady = 20)
@@ -221,7 +221,7 @@ class study():
         ttk.Button(root, text = "Back", command = self.back).grid(column = 3, row = 3, padx = 30,sticky = E)
 
         style = ttk.Style()
-        style.configure('Comic.TLabel', font=("Comic Sans MS", 14, "bold"))
+        style.configure('Comic.TLabel', font=("Corbel", 14, "bold"))
 
         myLabel = ttk.Label(root, text= "STUDY", style = "Comic.TLabel")
         myLabel.grid(row = 0, column = 0,columnspan = 3, padx = 50, pady = 20)

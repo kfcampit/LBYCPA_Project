@@ -35,12 +35,12 @@ class gradeCalculator():
 
         ttk.Button(mainframe, text = "Back", command = self.back).grid(column = 1, row = 6, sticky = W, padx = 8)
 
-        ttk.Label(mainframe, text = "Grade Calculator", font = Font(family = 'Helvetica', size = 12, weight = "bold")).grid(column = 2, row = 1, sticky = (E), pady = 8)
-        ttk.Label(mainframe, text = self.instructionText, font = Font(size = 8, slant = "italic"), wraplength = 300, justify = "center").grid(pady = 8 ,columnspan = 4, column = 0, row = 2, sticky = (E, W))
+        ttk.Label(mainframe, text = "Grade Calculator", font = Font(family = 'Corbel', size = 14, weight = "bold")).grid(column = 2, row = 1, sticky = (E), pady = 8)
+        ttk.Label(mainframe, text = self.instructionText, font = Font(family = 'Corbel', size = 8, slant = "italic"), wraplength = 300, justify = "center").grid(pady = 8 ,columnspan = 4, column = 0, row = 2, sticky = (E, W))
 
-        ttk.Label(mainframe, text = "Scores:").grid(column = 1, row = 3, sticky = W, padx = 4)
-        ttk.Label(mainframe, text = "Percentage:").grid(column = 1, row = 4, sticky = W, padx = 4)
-        ttk.Label(mainframe, text = "Grade:", font = Font(weight = "bold", size = 10)).grid(column = 1, row = 5, sticky = E, pady = 8)
+        ttk.Label(mainframe, text = "Scores:", font = Font(family = 'Corbel')).grid(column = 1, row = 3, sticky = W, padx = 4)
+        ttk.Label(mainframe, text = "Percentage:", font = Font(family = 'Corbel')).grid(column = 1, row = 4, sticky = W, padx = 4)
+        ttk.Label(mainframe, text = "Grade:", font = Font(family = 'Corbel', weight = "bold", size = 10)).grid(column = 1, row = 5, sticky = E, pady = 8)
         
         gradeEntry.focus()
         percentEntry.focus()

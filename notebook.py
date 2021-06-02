@@ -15,7 +15,7 @@ class notebookMain:
         mainframe = Frame(root)
         mainframe.grid(column = 0, row = 0, padx = 4, pady = 8)
 
-        Label(mainframe, text = "Notes", font = Font(family = "Helvetica", size = 14, weight = "bold")).grid(columnspan = 3, column = 1, row = 1, pady = 4)
+        Label(mainframe, text = "Notes", font = Font(family = "Corbel", size = 20, weight = "bold")).grid(columnspan = 3, column = 1, row = 1, pady = 4)
 
         ttk.Button(mainframe, text = "View", command = self.gotoNotebookView, width = 16).grid(column = 1, row = 2, pady = 4, padx = 8)
         ttk.Button(mainframe, text = "Create", command = self.gotoNotebookCreate, width = 16).grid(column = 2, row = 2, pady = 4, padx = 8)
@@ -66,14 +66,14 @@ class notebookCreate:
         mainframe = Frame(root)
         mainframe.grid(column = 0, row = 0, padx = 8, pady = 8)
 
-        Label(mainframe, text = "Create Note", font = Font(family = "Helvetica", size = 16, weight = "bold")).grid(columnspan = 2, column = 1, row = 1, pady = 4, sticky = (W, E))
+        Label(mainframe, text = "Create Note", font = Font(family = "Corbel", size = 20, weight = "bold")).grid(columnspan = 2, column = 1, row = 1, pady = 4, sticky = (W, E))
 
-        ttk.Label(mainframe, text = "Title:", font = Font(family = "Helvetica", size = 12)).grid(column = 1, row = 2, sticky = W)
+        ttk.Label(mainframe, text = "Title:", font = Font(family = "Corbel", size = 12)).grid(column = 1, row = 2, sticky = W)
 
         self.titleText = StringVar()
         ttk.Entry(mainframe, textvariable = self.titleText, width = 100).grid(column = 2, row = 2, padx = 4, sticky = W)
 
-        ttk.Label(mainframe, text = "Content:", font = Font(family = "Helvetica", size = 12)).grid(column = 1, row = 3, sticky = W)
+        ttk.Label(mainframe, text = "Content:", font = Font(family = "Corbel", size = 12)).grid(column = 1, row = 3, sticky = W)
         
         self.contentText = Text(mainframe, width = 96, height = 26)
         self.contentText.grid(columnspan = 2, column = 1, row = 4, padx = 4)
@@ -118,9 +118,9 @@ class notebookView:
         mainframe = Frame(root)
         mainframe.grid(column = 0, row = 0, padx = 8, pady = 8)
 
-        Label(mainframe, text = "Create Note", font = Font(family = "Helvetica", size = 16, weight = "bold")).grid(columnspan = 2, column = 1, row = 1, pady = 4, sticky = (W, E))
+        Label(mainframe, text = "Create Note", font = Font(family = "Corbel", size = 20, weight = "bold")).grid(columnspan = 2, column = 1, row = 1, pady = 4, sticky = (W, E))
 
-        ttk.Label(mainframe, text = "Title:", font = Font(family = "Helvetica", size = 12)).grid(column = 1, row = 2, sticky = W, pady = 8)
+        ttk.Label(mainframe, text = "Title:", font = Font(family = "Corbel", size = 12)).grid(column = 1, row = 2, sticky = W, pady = 8)
         ttk.Button(mainframe, text = "Load", width = 16, command = self.loadContent).grid(column = 2, row = 2, padx = 4, sticky = E, pady = 8)
         ttk.Button(mainframe, text = "Delete", width = 16, command = self.delete).grid(column = 2, row = 3, padx = 4, sticky = E, pady = 4)
 
@@ -128,9 +128,9 @@ class notebookView:
         self.titleText.set("Select a Notebook")
         optionList = self.loadList()
 
-        OptionMenu(root, self.titleText, *optionList).grid(column = 0, row = 0, sticky = (W, N), ipadx = 120, pady = 50, padx = 64)
+        OptionMenu(root, self.titleText, *optionList).grid(column = 0, row = 0, sticky = (W, N), ipadx = 120, pady = 60, padx = 64)
             
-        ttk.Label(mainframe, text = "Content:", font = Font(family = "Helvetica", size = 12)).grid(column = 1, row = 4, sticky = W)
+        ttk.Label(mainframe, text = "Content:", font = Font(family = "Corbel", size = 12)).grid(column = 1, row = 4, sticky = W)
         
         self.contentText = Text(mainframe, width = 96, height = 26)
         self.contentText.grid(columnspan = 2, column = 1, row = 5, padx = 4)
