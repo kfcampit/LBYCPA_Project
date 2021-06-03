@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter import ttk
-from gradeCalculator import *
 from mainMenu import *
 import sys
 

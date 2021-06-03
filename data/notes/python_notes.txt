@@ -1,0 +1,5 @@
+Python Notes
+for i in range(9):
+    print("Hello World")
+
+Sample Code

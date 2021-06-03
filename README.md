@@ -1,34 +1,29 @@
 # LBYCPA_Project
+## VIRTUAL STUDENT PLANNER
 
-[Replit](https://replit.com/join/rdtxfgau-jeyell26)
-
-STUDENT PLANNER!!
-Estimated time of finish @May 24 2021(?)
+**Note:** The executable has problems with some of the packages being used in the program. When executing the program, please run mainProgram.py. Otherwise, the nothing will execute.
 
 Development (GUI / Function):
  - Welcome Page
  - Name Prompt
- - Main Menu **(GUI: 80%; Function: 80%| Kyle)**
- - Enlist Page **(GUI: 100%; Function: 100%| Kyle)**
+ - Main Menu
+ - Enlist Page
  - Schedule Page
  - Calendar Page
-      - Main Calendar **(GUI: 100%; Function: 100%| JL)**
-      - Add to Calendar **(GUI: 100%; Function: 100%| JL)**
-      - Delete from Calendar **(GUI: 100%; Function: 100%| JL)**
- - Grade Page **(GUI: 90%; Function: 90%| Kyle)**
+      - Main Calendar
+      - Add to Calendar
+      - Delete from Calendar
+ - Grade Page
  - Flashcards Page
-      - Main Flashcard Page **(GUI: 100%; Function: 100%| JL)**
-      - Create/Edit Flashcards **(GUI: 100%; Function: 100%| JL)**
-      - Study with Flashcards **(GUI: 100%; Function: 100%| JL)**
+      - Main Flashcard Page
+      - Create/Edit Flashcards
+      - Study with Flashcards
  - Notes Page
-      - Main Notes Page **(GUI: 100%; Function: 100%| Kyle)**
-      - View Notes **(GUI: 100%; Function: 100%| Kyle)**
-      - Create Notes **(GUI: 100%; Function: 100%| Kyle)**
-      - Delete Notes **(GUI: 100%; Function: 100%| Kyle)**
+      - Main Notes Page
+      - View Notes 
+      - Create Notes 
+      - Delete Notes 
  - Schedule Page
       - Edit & View Schedule
       - Add Schedule
       - Back
-Assigned Parts: (add your own name, followed by what you want to do)  
-JL - GUI PALITAN KO NGA HEHE
-Wrenn - schedule
