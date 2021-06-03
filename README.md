@@ -1,4 +1,4 @@
-# LBYCPA_Project
+# LBYCPA1_Project
 ## VIRTUAL STUDENT PLANNER
 
 **Note:** The executable has problems with some of the packages being used in the program. When executing the program, please run mainProgram.py. Otherwise, nothing will execute.
