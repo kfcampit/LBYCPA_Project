@@ -1,1 +1,2 @@
 ENGCHEM;Chemistry for Engineers;E;A2;GARCIA, EMMANUEL MONTINOLA;TH;915.0;1045.0
+LBYEC2B;Computer Fundamentals Programming 2;E;B1;nan;M ;730.0;1030.0
